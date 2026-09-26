@@ -7,7 +7,7 @@
 
 <!-- HEADER BANNER IMAGE -->
 <p align="center">
-  <img src="Screenshot_20260115_163516.png" alt="Delhi-NCR 150km Radius LST Map Banner" width="100%">
+  <img src="1000019416.jpg" alt="Delhi-NCR 150km Radius LST Map Banner" width="100%">
 </p>
 
 > **SCI-Oriented Title:** Spatio-Temporal Analysis and Machine Learning-Based Prediction of Urban Heat Island Intensity over Delhi-NCR Region Using Multi-Temporal Landsat and ESA WorldCover Data
@@ -20,7 +20,7 @@ This research presents a comprehensive 50-year spatio-temporal study (1995–204
 The study highlights a direct, inverse correlation ($R^2 = 0.88$) between the Normalized Difference Vegetation Index (NDVI) and LST, alongside a strong positive correlation ($R^2 = 0.85$) with the Normalized Difference Built-Up Index (NDBI). Findings reveal an alarming **8.1°C rise in mean LST** from 1995 (29.8°C) to 2025 (37.9°C). Integrating CA-Markov predictive chain analysis, Random Forest, and LSTM neural networks, the model projects a **peak mean LST of 41.2°C – 41.9°C by 2045**, breaching critical habitability thresholds.
 
 <p align="center">
-  <img src="Screenshot_20260115_163536.png" alt="Master Overview Mapping" width="85%">
+  <img src="1000019417.jpg" alt="Master Overview Mapping" width="85%">
   <br>
   <i>Figure 1: Master Geospatial Overview & Buffer Regional Thermal Extent.</i>
 </p>
@@ -42,7 +42,7 @@ The study highlights a direct, inverse correlation ($R^2 = 0.88$) between the No
 ## 🗺️ Study Area & Spatial Gradient
 
 <p align="center">
-  <img src="Screenshot_20260115_163549.png" alt="Spatial Gradient Map 150km Radius" width="85%">
+  <img src="1000019418.jpg" alt="Spatial Gradient Map 150km Radius" width="85%">
   <br>
   <i>Figure 2: 150 km Circular AOI Buffer (28.6139°N, 77.2090°E Core) showing regional thermal gradients.</i>
 </p>
@@ -59,16 +59,16 @@ The study highlights a direct, inverse correlation ($R^2 = 0.88$) between the No
 ## 🗓️ Decadal LST Dynamics (1995–2025 Visual Archive)
 
 <p align="center">
-  <img src="Screenshot_20260115_163629.png" alt="1995 Baseline LST Map" width="24%">
-  <img src="Screenshot_20260115_163641.png" alt="2005 Decadal LST Map" width="24%">
-  <img src="Screenshot_20260226_184407.png" alt="2015 Decadal LST Map" width="24%">
-  <img src="methodology_workflow.png" alt="2025 Current LST Map" width="24%">
+  <img src="1000019419.jpg" alt="1995 Baseline LST Map" width="24%">
+  <img src="1000019420.jpg" alt="2005 Decadal LST Map" width="24%">
+  <img src="1000024419.jpg" alt="2015 Decadal LST Map" width="24%">
+  <img src="1000024422.jpg" alt="2025 Current LST Map" width="24%">
   <br>
   <i>Figure 3: Historical Decadal Progression of Land Surface Temperature over Delhi-NCR (1995, 2005, 2015, and 2025).</i>
 </p>
 
 <p align="center">
-  <video src="XRecorderLite_26022026_184000.mp4" width="85%" controls autoplay loop muted></video>
+  <video src="1000024420.mp4" width="85%" controls autoplay loop muted></video>
   <br>
   <i>Video 1: 30-Year Spatio-Temporal Thermal Evolution & Heat Expansion Timelapse (1995–2025).</i>
 </p>
@@ -78,14 +78,14 @@ The study highlights a direct, inverse correlation ($R^2 = 0.88$) between the No
 ## 🌿 Spectral Indices & Thermal Correlation (NDVI / NDBI / NDWI)
 
 <p align="center">
-  <img src="Screenshot_20260115_163516.png" alt="NDVI Vegetation Distribution Map" width="48%">
-  <img src="Screenshot_20260115_163536.png" alt="NDBI Built-Up Expansion Map" width="48%">
+  <img src="1000024454.jpg" alt="NDVI Vegetation Distribution Map" width="48%">
+  <img src="1000024464.jpg" alt="NDBI Built-Up Expansion Map" width="48%">
   <br>
   <i>Figure 4: (Left) NDVI Greenery Spatial Density; (Right) NDBI Built-Up Expansion Overlay.</i>
 </p>
 
 <p align="center">
-  <video src="XRecorderLite_27022026_081000.mp4" width="85%" controls autoplay loop muted></video>
+  <video src="1000024426.mp4" width="85%" controls autoplay loop muted></video>
   <br>
   <i>Video 2: Spatio-Temporal Dynamics of Urban Expansion vs Vegetation Loss Animation.</i>
 </p>
@@ -113,14 +113,14 @@ The study highlights a direct, inverse correlation ($R^2 = 0.88$) between the No
 ## 🔥 Hotspot Delineation & 2045 Machine Learning Forecasting
 
 <p align="center">
-  <img src="Screenshot_20260115_163549.png" alt="2045 Predictive LST Risk Scenario" width="48%">
-  <img src="Screenshot_20260115_163629.png" alt="Core Urban Hotspot Analysis" width="48%">
+  <img src="1000024497.jpg" alt="2045 Predictive LST Risk Scenario" width="48%">
+  <img src="1000024216.png" alt="Core Urban Hotspot Analysis" width="48%">
   <br>
   <i>Figure 5: (Left) CA-Markov & Neural Network Projected 2045 Thermal Risk Scenario; (Right) Core Urban Hotspots ($LST > \text{Mean} + 2\sigma$).</i>
 </p>
 
 <p align="center">
-  <video src="XRecorderLite_27022026_082000.mp4" width="85%" controls autoplay loop muted></video>
+  <video src="1000024452.mp4" width="85%" controls autoplay loop muted></video>
   <br>
   <i>Video 3: Predictive ML Modeling Simulation of Regional Heat Propagation to 2045.</i>
 </p>
@@ -153,7 +153,7 @@ Where:
 ## 💻 Google Earth Engine (GEE) Implementation
 
 <p align="center">
-  <video src="XRecorderLite_27022026_202000.mp4" width="85%" controls autoplay loop muted></video>
+  <video src="1000024495.mp4" width="85%" controls autoplay loop muted></video>
   <br>
   <i>Video 4: Live GEE Code Runner & Layer Rendering Demo.</i>
 </p>
