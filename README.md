@@ -1,7 +1,7 @@
 # 🌍 Multi-Decadal Spatio-Temporal Dynamics & Predictive Modelling of Urban Heat Island (UHI) Intensity: Delhi-NCR (1995–2045)
 
 <p align="center">
-  <img src="./figures/fig1.jpg" width="900" alt="fig1.jpg">
+  <img src="fig1.jpg" width="900" alt="fig1.jpg">
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ The study covers:
 - **Analysis:** Spatial, temporal, statistical, hotspot, correlation, regression and predictive analysis
 
 <p align="center">
-  <img src="./figures/fig2.jpg" width="900" alt="fig2.jpg">
+  <img src="fig2.jpg" width="900" alt="fig2.jpg">
 </p>
 
 <p align="center">
@@ -75,26 +75,26 @@ The project integrates:
 
 | Parameter | Description |
 |---|---|
-| Project Title | Multi-Decadal Spatio-Temporal Dynamics & Predictive Modelling of Urban Heat Island (UHI) Intensity: Delhi-NCR (1995–2045) |
-| SCI Journal Title | Spatio-Temporal Analysis and Machine Learning-Based Prediction of Urban Heat Island Intensity over Delhi-NCR Region Using Multi-Temporal Landsat and ESA WorldCover |
-| Organization | ESARC — Earth & Space Applications Research Centre |
-| Study Region | Delhi-NCR and surrounding region |
-| Study Centre | 28.6139° N, 77.2090° E |
-| Approximate AOI | 150 km buffer |
-| Historical Period | 1995–2025 |
-| Future Projection | 2025–2045 |
-| Total Research Period | 1995–2045 |
-| Primary Satellite | Landsat 5/7/8/9 |
-| Supporting Satellite | MODIS |
-| Land Cover | ESA WorldCover |
-| DEM | SRTM |
-| Processing Platform | Google Earth Engine |
-| Programming | Python |
-| GIS | QGIS / Google Earth Engine |
-| Statistical Analysis | Correlation, Regression, Trend Analysis |
-| ML Models | Linear Regression, Random Forest, Gradient Boosting, LSTM |
-| Major Output | Historical UHI reconstruction + predictive modelling |
-| Research Organisation | ESARC |
+| Project Title | Multi-Decadal Spatio-Temporal Dynamics & Predictive Modelling of Urban Heat Island (UHI) Intensity: Delhi-NCR (1995–2045)[span_3](start_span)[span_3](end_span) |
+| SCI Journal Title | Spatio-Temporal Analysis and Machine Learning-Based Prediction of Urban Heat Island Intensity over Delhi-NCR Region Using Multi-Temporal Landsat and ESA WorldCover[span_4](start_span)[span_4](end_span) |
+| Organization | ESARC — Earth & Space Applications Research Centre[span_5](start_span)[span_5](end_span) |
+| Study Region | Delhi-NCR and surrounding region[span_6](start_span)[span_6](end_span) |
+| Study Centre | 28.6139° N, 77.2090° E[span_7](start_span)[span_7](end_span) |
+| Approximate AOI | 150 km buffer[span_8](start_span)[span_8](end_span) |
+| Historical Period | 1995–2025[span_9](start_span)[span_9](end_span) |
+| Future Projection | 2025–2045[span_10](start_span)[span_10](end_span) |
+| Total Research Period | 1995–2045[span_11](start_span)[span_11](end_span) |
+| Primary Satellite | Landsat 5/7/8/9[span_12](start_span)[span_12](end_span) |
+| Supporting Satellite | MODIS[span_13](start_span)[span_13](end_span) |
+| Land Cover | ESA WorldCover[span_14](start_span)[span_14](end_span) |
+| DEM | SRTM[span_15](start_span)[span_15](end_span) |
+| Processing Platform | Google Earth Engine[span_16](start_span)[span_16](end_span) |
+| Programming | Python[span_17](start_span)[span_17](end_span) |
+| GIS | QGIS / Google Earth Engine[span_18](start_span)[span_18](end_span) |
+| Statistical Analysis | Correlation, Regression, Trend Analysis[span_19](start_span)[span_19](end_span) |
+| ML Models | Linear Regression, Random Forest, Gradient Boosting, LSTM[span_20](start_span)[span_20](end_span) |
+| Major Output | Historical UHI reconstruction + predictive modelling[span_21](start_span)[span_21](end_span) |
+| Research Organisation | ESARC[span_22](start_span)[span_22](end_span) |
 
 ---
 
@@ -254,7 +254,7 @@ How can Earth Observation-based UHI information support future urban environment
 # 🗺️ Study Area
 
 <p align="center">
-  <img src="./figures/fig3.jpg" width="900" alt="fig3.jpg">
+  <img src="fig3.jpg" width="900" alt="fig3.jpg">
 </p>
 
 <p align="center">
@@ -304,7 +304,7 @@ The larger buffer is used to provide regional environmental context and enable c
 # 🛰️ Data Sources
 
 <p align="center">
-  <img src="./figures/fig4.jpg" width="900" alt="fig4.jpg">
+  <img src="fig4.jpg" width="900" alt="fig4.jpg">
 </p>
 
 <p align="center">
@@ -720,7 +720,7 @@ The historical component is divided into representative temporal snapshots and/o
 # 🌡️ 1995 Historical LST
 
 <p align="center">
-  <img src="./figures/fig5.jpg" width="900" alt="fig5.jpg">
+  <img src="fig5.jpg" width="900" alt="fig5.jpg">
 </p>
 
 <p align="center">
@@ -732,7 +732,7 @@ The historical component is divided into representative temporal snapshots and/o
 # 🌡️ 2005 Historical LST
 
 <p align="center">
-  <img src="./figures/fig6.jpg" width="900" alt="fig6.jpg">
+  <img src="fig6.jpg" width="900" alt="fig6.jpg">
 </p>
 
 <p align="center">
@@ -744,7 +744,7 @@ The historical component is divided into representative temporal snapshots and/o
 # 🌡️ 2015 Historical LST
 
 <p align="center">
-  <img src="./figures/fig7.jpg" width="900" alt="fig7.jpg">
+  <img src="fig7.jpg" width="900" alt="fig7.jpg">
 </p>
 
 <p align="center">
@@ -756,7 +756,7 @@ The historical component is divided into representative temporal snapshots and/o
 # 🌡️ 2025 Historical LST
 
 <p align="center">
-  <img src="./figures/fig8.jpg" width="900" alt="fig8.jpg">
+  <img src="fig8.jpg" width="900" alt="fig8.jpg">
 </p>
 
 <p align="center">
@@ -838,7 +838,7 @@ Potentially useful for temporal sequences where sufficiently long, consistent ti
 # 🔥 UHI Hotspot Detection
 
 <p align="center">
-  <img src="./figures/fig9.jpg" width="900" alt="fig9.jpg">
+  <img src="fig9.jpg" width="900" alt="fig9.jpg">
 </p>
 
 <p align="center">
@@ -890,7 +890,7 @@ No model should be declared superior solely on training performance.
 # 🧠 Predictive Modelling
 
 <p align="center">
-  <img src="./figures/fig10.jpg" width="900" alt="fig10.jpg">
+  <img src="fig10.jpg" width="900" alt="fig10.jpg">
 </p>
 
 <p align="center">
@@ -1102,7 +1102,7 @@ The spatial relationship between NDWI and LST can therefore be investigated to q
 # 🔮 Future Projection Framework: 2025–2045
 
 <p align="center">
-  <img src="./figures/fig11.jpg" width="900" alt="fig11.jpg">
+  <img src="fig11.jpg" width="900" alt="fig11.jpg">
 </p>
 
 <p align="center">
@@ -1198,9 +1198,9 @@ The repository contains **11 principal research figures**.
 
 ## 🎬 video1.mp4
 
-**Exact file:** `./videos/video1.mp4`
+**Exact file:** `video1.mp4`
 
-[▶️ Open video1.mp4](./videos/video1.mp4)
+[▶️ Open video1.mp4](video1.mp4)[span_23](start_span)[span_23](end_span)
 
 **Purpose:** Google Earth Engine processing demonstration covering satellite-data preparation, filtering, preprocessing and Earth Observation workflow.
 
@@ -1208,9 +1208,9 @@ The repository contains **11 principal research figures**.
 
 ## 🎬 video2.mp4
 
-**Exact file:** `./videos/video2.mp4`
+**Exact file:** `video2.mp4`
 
-[▶️ Open video2.mp4](./videos/video2.mp4)
+[▶️ Open video2.mp4](video2.mp4)[span_24](start_span)[span_24](end_span)
 
 **Purpose:** LST processing demonstration covering thermal-data processing and Land Surface Temperature workflow.
 
@@ -1218,9 +1218,9 @@ The repository contains **11 principal research figures**.
 
 ## 🎬 video3.mp4
 
-**Exact file:** `./videos/video3.mp4`
+**Exact file:** `video3.mp4`
 
-[▶️ Open video3.mp4](./videos/video3.mp4)
+[▶️ Open video3.mp4](video3.mp4)[span_25](start_span)[span_25](end_span)
 
 **Purpose:** Python and Machine Learning demonstration covering data processing, statistical analysis and predictive modelling.
 
@@ -1228,9 +1228,9 @@ The repository contains **11 principal research figures**.
 
 ## 🎬 video4.mp4
 
-**Exact file:** `./videos/video4.mp4`
+**Exact file:** `video4.mp4`
 
-[▶️ Open video4.mp4](./videos/video4.mp4)
+[▶️ Open video4.mp4](video4.mp4)[span_26](start_span)[span_26](end_span)
 
 **Purpose:** Final integrated research demonstration covering the overall research pipeline and outputs.
 
@@ -1243,24 +1243,22 @@ UHI-Delhi-NCR-1995-2045/
 │
 ├── README.md
 │
-├── figures/
-│   ├── fig1.jpg
-│   ├── fig2.jpg
-│   ├── fig3.jpg
-│   ├── fig4.jpg
-│   ├── fig5.jpg
-│   ├── fig6.jpg
-│   ├── fig7.jpg
-│   ├── fig8.jpg
-│   ├── fig9.jpg
-│   ├── fig10.jpg
-│   └── fig11.jpg
+├── fig1.jpg
+├── fig2.jpg
+├── fig3.jpg
+├── fig4.jpg
+├── fig5.jpg
+├── fig6.jpg
+├── fig7.jpg
+├── fig8.jpg
+├── fig9.jpg
+├── fig10.jpg
+├── fig11.jpg
 │
-├── videos/
-│   ├── video1.mp4
-│   ├── video2.mp4
-│   ├── video3.mp4
-│   └── video4.mp4
+├── video1.mp4
+├── video2.mp4
+├── video3.mp4
+├── video4.mp4
 │
 ├── gee/
 │   ├── landsat_processing.js
