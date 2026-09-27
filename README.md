@@ -1,1435 +1,1247 @@
-# 🛰️ Multi-Decadal Spatio-Temporal Dynamics & Predictive Modelling of Urban Heat Island (UHI) Intensity: Delhi-NCR (1995–2045)
+# 🌍 Multi-Decadal Spatio-Temporal Dynamics & Predictive Modelling of Urban Heat Island (UHI) Intensity: Delhi-NCR (1995–2045)
 
 <p align="center">
-
-<img src="figures/fig1.jpg" width="900" alt="Delhi-NCR Urban Heat Island Research Overview">
-
+  <img src="./figures/fig1.jpg" width="900" alt="fig1.jpg">
 </p>
 
 <p align="center">
-
-<strong>Multi-Sensor Remote Sensing • GIS • Google Earth Engine • Python • Machine Learning • Predictive Modelling</strong>
-
+  <strong>fig1.jpg — Project Overview / Research Cover</strong>
 </p>
 
 <p align="center">
+  <strong>Earth Observation • Remote Sensing • GIS • Google Earth Engine • Python • Machine Learning • Climate & Urban Analytics</strong>
+</p>
 
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Google%20Earth%20Engine-GEE-4285F4" alt="Google Earth Engine">
-<img src="https://img.shields.io/badge/Python-3.x-blue.svg" alt="Python">
-<img src="https://img.shields.io/badge/Remote%20Sensing-Multi--Sensor-orange.svg" alt="Remote Sensing">
-<img src="https://img.shields.io/badge/GIS-Spatial%20Analysis-yellow.svg" alt="GIS">
-<img src="https://img.shields.io/badge/Machine%20Learning-Predictive%20Modelling-purple.svg" alt="Machine Learning">
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Research%20Period-1995--2045-blue">
+  <img src="https://img.shields.io/badge/Historical-1995--2025-green">
+  <img src="https://img.shields.io/badge/Future%20Projection-2025--2045-orange">
+  <img src="https://img.shields.io/badge/Platform-Google%20Earth%20Engine-yellow">
+  <img src="https://img.shields.io/badge/Language-Python-blue">
+  <img src="https://img.shields.io/badge/Domain-Urban%20Climate-red">
+  <img src="https://img.shields.io/badge/Organization-ESARC-purple">
 </p>
 
 ---
 
-# 📌 SCI-JOURNAL TITLE
+# 🛰️ SCI Journal Title
 
-### **Spatio-Temporal Analysis and Machine Learning-Based Prediction of Urban Heat Island Intensity over Delhi-NCR Region Using Multi-Temporal Landsat and ESA WorldCover**
+**Spatio-Temporal Analysis and Machine Learning-Based Prediction of Urban Heat Island Intensity over Delhi-NCR Region Using Multi-Temporal Landsat and ESA WorldCover**
 
 ---
 
-# 📖 PROJECT OVERVIEW
+# 📌 Project Overview
 
-This research investigates the **multi-decadal evolution, spatial distribution, intensity, environmental drivers and future trajectory of Urban Heat Island (UHI)** over the Delhi-NCR region using multi-temporal satellite observations, GIS, spectral indices, thermal remote sensing, machine learning and predictive modelling.
+This research investigates the **multi-decadal evolution, spatial distribution, controlling factors, hotspot formation, and future projection of Urban Heat Island (UHI) intensity over Delhi-NCR** using multi-source Earth Observation data, Remote Sensing, GIS, Google Earth Engine, Python, statistical modelling, and Machine Learning.
 
-The study covers the historical period **1995–2025** and develops a predictive framework extending towards **2045**.
+The study covers:
 
-The complete research architecture combines satellite observations, environmental indicators, spatial statistics, machine-learning methods and future scenario modelling into a reproducible Earth-observation workflow.
+- **Historical analysis:** 1995–2025
+- **Future projection:** 2025–2045
+- **Total research horizon:** 1995–2045
+- **Study centre:** 28.6139° N, 77.2090° E
+- **Approximate AOI:** 150 km buffer
+- **Primary variables:** LST, NDVI, NDBI, NDWI, emissivity and land-cover classes
+- **Satellite datasets:** Landsat 5/7/8/9 and MODIS
+- **Land-cover dataset:** ESA WorldCover
+- **Elevation:** SRTM
+- **Processing:** Google Earth Engine + Python
+- **Machine Learning:** Linear Regression, Random Forest, Gradient Boosting and LSTM
+- **Analysis:** Spatial, temporal, statistical, hotspot, correlation, regression and predictive analysis
 
 <p align="center">
-
-<img src="figures/fig2.jpg" width="850" alt="Integrated UHI Research Framework">
-
+  <img src="./figures/fig2.jpg" width="900" alt="fig2.jpg">
 </p>
 
 <p align="center">
-<em>Figure 2. Integrated conceptual framework connecting satellite observations, environmental indicators, spatial analysis and predictive modelling.</em>
+  <strong>fig2.jpg — Integrated Conceptual Research Framework</strong>
 </p>
 
-The research integrates:
+---
 
-- 🛰️ Landsat multi-temporal observations
-- 🌡️ Land Surface Temperature (LST)
-- 🌿 NDVI — Normalized Difference Vegetation Index
-- 🏙️ NDBI — Normalized Difference Built-up Index
-- 💧 NDWI — Normalized Difference Water Index
-- 🗺️ ESA WorldCover land-cover information
-- ⛰️ SRTM elevation data
-- 🌍 Administrative and spatial boundary datasets
-- 🤖 Machine Learning
-- 📈 Statistical trend analysis
-- 🔮 Predictive modelling
-- 🛰️ Google Earth Engine
-- 🐍 Python-based scientific analysis
+# 🔭 Research Vision
 
-The project is designed as a reproducible research workflow rather than a single satellite-image analysis.
+The central objective is to develop an integrated Earth Observation and Machine Learning framework capable of explaining:
+
+**How Delhi-NCR has thermally transformed since 1995, which land-surface and environmental factors are responsible for this transformation, where UHI hotspots are concentrated, and how the thermal environment may evolve toward 2045 under changing urban conditions.**
+
+The project integrates:
+
+**Satellite Observations → Spectral Indices → Land Surface Temperature → UHI Intensity → Spatial Statistics → Machine Learning → Future Projection → Urban Climate Interpretation**
 
 ---
 
-# 🎯 RESEARCH VISION
-
-The central objective is to understand how rapid urbanisation, vegetation loss, built-up expansion and land-surface transformation have influenced thermal behaviour across Delhi-NCR over multiple decades.
-
-The research framework follows:
-
-**Historical Observation → Spatial Analysis → Driver Identification → Statistical Modelling → Machine Learning → Future Projection → Urban Heat Mitigation**
-
----
-
-# 🧑‍🔬 PROJECT METADATA
+# 📊 Project Metadata
 
 | Parameter | Description |
 |---|---|
-| Project Type | Remote Sensing + GIS + Environmental Modelling |
-| Research Theme | Urban Heat Island Dynamics |
-| Study Region | Delhi-NCR |
+| Project Title | Multi-Decadal Spatio-Temporal Dynamics & Predictive Modelling of Urban Heat Island (UHI) Intensity: Delhi-NCR (1995–2045) |
+| SCI Journal Title | Spatio-Temporal Analysis and Machine Learning-Based Prediction of Urban Heat Island Intensity over Delhi-NCR Region Using Multi-Temporal Landsat and ESA WorldCover |
+| Organization | ESARC — Earth & Space Applications Research Centre |
+| Study Region | Delhi-NCR and surrounding region |
+| Study Centre | 28.6139° N, 77.2090° E |
+| Approximate AOI | 150 km buffer |
 | Historical Period | 1995–2025 |
-| Projection Period | 2025–2045 |
-| Total Study Horizon | 1995–2045 |
-| Spatial Analysis | Multi-scale |
-| Primary Satellite Data | Landsat |
-| Supporting Data | MODIS, ESA WorldCover, SRTM, administrative boundaries |
+| Future Projection | 2025–2045 |
+| Total Research Period | 1995–2045 |
+| Primary Satellite | Landsat 5/7/8/9 |
+| Supporting Satellite | MODIS |
+| Land Cover | ESA WorldCover |
+| DEM | SRTM |
 | Processing Platform | Google Earth Engine |
 | Programming | Python |
-| ML Component | Regression + Time-Series Predictive Modelling |
-| Main Variables | LST, NDVI, NDBI, NDWI, Land Cover |
-| Organisation | ESARC |
-| License | MIT |
-| Project Status | Research / Development |
+| GIS | QGIS / Google Earth Engine |
+| Statistical Analysis | Correlation, Regression, Trend Analysis |
+| ML Models | Linear Regression, Random Forest, Gradient Boosting, LSTM |
+| Major Output | Historical UHI reconstruction + predictive modelling |
+| Research Organisation | ESARC |
 
 ---
 
-# 🌡️ ABSTRACT
+# 📝 Abstract
 
-Urban Heat Island (UHI) is one of the major environmental consequences of rapid urbanisation. The replacement of natural surfaces with impervious built-up materials modifies surface energy balance, vegetation distribution, moisture availability and heat storage, producing elevated temperatures within urban environments relative to surrounding areas.
+Urban Heat Island (UHI) represents one of the major environmental consequences of rapid urbanisation, land-cover transformation, vegetation loss, surface sealing and anthropogenic development.
 
-This research develops a multi-decadal remote-sensing framework for analysing UHI intensity across the Delhi-NCR region from **1995 to 2025**, followed by predictive modelling towards **2045**.
+Delhi-NCR has experienced substantial demographic, infrastructural and land-use transformation during the last several decades. Such changes can modify surface energy balance and consequently influence Land Surface Temperature (LST) and spatial UHI patterns.
 
-Multi-temporal Landsat observations are integrated with spectral indices including NDVI, NDBI and NDWI to investigate relationships between vegetation, built-up surfaces, water availability and land surface temperature. ESA WorldCover is incorporated for land-cover interpretation, while SRTM elevation data and supporting datasets provide additional environmental context.
+This research develops a multi-decadal Earth Observation framework for analysing UHI dynamics across Delhi-NCR from **1995 to 2045**.
 
-Google Earth Engine is used for large-scale image processing, cloud masking, temporal compositing and spatial analysis. Python is used for statistical analysis, visualisation, machine-learning workflows and predictive modelling.
+The historical component covers **1995–2025** using multi-temporal Landsat observations supported by MODIS, ESA WorldCover, SRTM and additional environmental datasets. LST is derived from satellite thermal observations, while NDVI, NDBI and NDWI are calculated to quantify vegetation, built-up intensity and surface-water conditions.
 
-The research framework investigates:
+The study investigates relationships between:
 
-1. Long-term LST trends.
-2. Expansion of thermally intense urban surfaces.
-3. Vegetation degradation and recovery patterns.
-4. Relationships between built-up intensity and LST.
-5. Relationships between vegetation and LST.
-6. Spatial clustering of thermal hotspots.
-7. Multi-sensor consistency.
-8. Machine-learning-based prediction.
-9. Potential future thermal-risk zones.
-10. Urban heat mitigation implications.
-
-The resulting framework is intended to support reproducible environmental research and provide a scientific basis for understanding the relationship between urbanisation and thermal environmental change.
-
----
-
-# 🧾 DECLARATION
-
-This repository contains a research and development framework for multi-decadal Urban Heat Island analysis.
-
-Numerical results, model outputs, forecasts and derived datasets should be treated as **project outputs subject to reproducibility and independent validation**. They should not be interpreted as independently verified observations unless the corresponding validation datasets and processing procedures are provided.
-
-The methodology is designed to remain transparent, reproducible and extensible.
-
----
-
-# 🌍 BACKGROUND & RATIONALE
-
-Delhi-NCR has experienced substantial urban growth over the last several decades.
-
-Urban expansion can alter:
-
-- Surface albedo
-- Vegetation cover
-- Soil moisture
-- Evapotranspiration
-- Thermal emissivity
-- Surface roughness
-- Heat storage
-- Anthropogenic heat environment
-- Local energy balance
-
-These changes can influence land surface temperature and the spatial characteristics of urban heat.
-
-Satellite remote sensing provides an effective mechanism for reconstructing long-term spatial patterns because historical Landsat observations extend across several decades.
-
-The combination of:
-
-**Landsat + GIS + spectral indices + LST + land cover + machine learning**
-
-creates an integrated framework for investigating these changes.
-
----
-
-# ❓ RESEARCH PROBLEM
-
-The research addresses the following core problem:
-
-> How has urbanisation altered the spatial and temporal distribution of land surface temperature across Delhi-NCR from 1995 to 2025, and how can these relationships be used to model potential thermal conditions towards 2045?
-
-The research additionally investigates whether observed thermal changes are associated with:
-
-- Increasing built-up density
-- Declining vegetation
-- Changing water distribution
+- Urbanisation
+- Vegetation
+- Surface water
 - Land-cover transformation
-- Urban expansion
-- Spatial configuration of urban surfaces
+- Surface emissivity
+- Land Surface Temperature
+- UHI intensity
+
+Statistical and Machine Learning models are subsequently applied to identify nonlinear relationships and develop predictive frameworks for future thermal conditions.
+
+The future component extends the analysis toward **2045** using scenario-based predictive modelling.
+
+The final research framework is intended to provide a reproducible methodology for:
+
+- Multi-decadal UHI analysis
+- Urban thermal hotspot detection
+- Land-cover and thermal interaction analysis
+- Satellite-based environmental monitoring
+- Machine Learning-based prediction
+- Urban climate assessment
+- Future thermal-risk interpretation
 
 ---
 
-# 🧪 RESEARCH HYPOTHESES
+# ⚠️ Scientific Declaration
+
+The **1995–2025 period represents historical Earth Observation-based analysis**, while the **2025–2045 period represents modelled future projection/scenario analysis**.
+
+Projected values are not direct satellite observations.
+
+All future estimates must therefore be reported as:
+
+> **Modelled / projected values under defined assumptions and scenarios**
+
+and not as observed future temperatures.
+
+---
+
+# 🌆 Background & Rationale
+
+Rapid urbanisation modifies the physical characteristics of the land surface.
+
+Common urban transformations include:
+
+- Conversion of vegetation into built-up surfaces
+- Increase in impervious surfaces
+- Reduction in exposed soil and agricultural land
+- Fragmentation of water bodies
+- Increase in building density
+- Road-network expansion
+- Industrial development
+- Reduction in evapotranspiration
+- Modification of surface albedo
+- Modification of thermal emissivity
+- Increased anthropogenic heat release
+
+These processes influence the surface energy balance.
+
+A simplified conceptual relationship is:
+
+**Urbanisation → Land-Cover Change → Surface Properties → Energy Balance → LST → UHI**
+
+---
+
+# ❓ Research Problem
+
+The research addresses the following broad problem:
+
+> How has the spatial and temporal behaviour of Urban Heat Island intensity changed across Delhi-NCR between 1995 and 2025, what environmental and land-surface factors explain these changes, and how can Machine Learning be used to project possible UHI behaviour toward 2045?
+
+---
+
+# 🧪 Research Hypotheses
 
 ### H1 — Urbanisation Hypothesis
 
-Increasing built-up intensity is associated with increasing Land Surface Temperature.
+Increasing built-up intensity represented by NDBI is associated with increasing LST and UHI intensity.
 
 ### H2 — Vegetation Cooling Hypothesis
 
-Higher vegetation density is associated with comparatively lower Land Surface Temperature.
+Increasing vegetation represented by NDVI is associated with lower LST and reduced UHI intensity.
 
-### H3 — Predictive Modelling Hypothesis
+### H3 — Water-Body Cooling Hypothesis
 
-Historical relationships between land-cover variables, spectral indices and LST can be used to construct predictive models for future thermal conditions.
+Higher surface-water presence represented by NDWI is associated with comparatively lower LST.
 
 ---
 
-# ❓ RESEARCH QUESTIONS
+# ❓ Research Questions
 
 ### RQ1
-How has Land Surface Temperature changed across Delhi-NCR between 1995 and 2025?
+How has LST changed across Delhi-NCR between 1995 and 2025?
 
 ### RQ2
-How has vegetation distribution changed during the same period?
+How has UHI intensity changed spatially and temporally?
 
 ### RQ3
-How has built-up land expanded spatially?
+Which areas represent persistent thermal hotspots?
 
 ### RQ4
-What relationship exists between NDVI and LST?
+How strongly is NDVI related to LST?
 
 ### RQ5
-What relationship exists between NDBI and LST?
+How strongly is NDBI related to LST?
 
 ### RQ6
-How does NDWI influence spatial thermal patterns?
+How does NDWI influence local thermal conditions?
 
 ### RQ7
-Where are persistent UHI hotspots located?
+How has land-cover transformation contributed to UHI development?
 
 ### RQ8
-How consistent are thermal patterns across different satellite sensors?
+Which Machine Learning model provides the most reliable predictive performance under the selected validation framework?
 
 ### RQ9
-Which machine-learning approach provides the most useful predictive performance under the defined validation framework?
+What thermal conditions may develop toward 2045 under the defined scenarios?
 
 ### RQ10
-What thermal-risk patterns may emerge towards 2045 under the modelled scenarios?
+How can Earth Observation-based UHI information support future urban environmental planning?
 
 ---
 
-# 🎯 RESEARCH OBJECTIVES
+# 🎯 Research Objectives
 
-## Primary Objective
-
-To analyse and model multi-decadal Urban Heat Island dynamics over Delhi-NCR using multi-sensor satellite observations and machine-learning techniques.
-
-## Secondary Objectives
-
-- Generate historical LST datasets.
-- Quantify vegetation change.
-- Quantify built-up expansion.
-- Analyse water-body dynamics.
-- Detect thermal hotspots.
-- Study spatial relationships among LST, NDVI and NDBI.
-- Integrate land-cover information.
-- Develop statistical models.
-- Develop machine-learning models.
-- Evaluate model performance.
-- Generate future projections.
-- Identify potential high-risk thermal zones.
-- Develop a reproducible research pipeline.
+1. Develop a consistent multi-decadal satellite-based UHI dataset.
+2. Estimate historical LST across Delhi-NCR.
+3. Derive NDVI, NDBI and NDWI.
+4. Analyse land-cover transformation.
+5. Quantify relationships between land-cover variables and LST.
+6. Identify spatial UHI hotspots.
+7. Analyse long-term thermal trends.
+8. Develop statistical prediction models.
+9. Develop Machine Learning prediction models.
+10. Validate model performance.
+11. Estimate future thermal behaviour toward 2045.
+12. Develop reproducible research workflows.
+13. Produce publication-quality figures and maps.
+14. Establish a framework suitable for future updates.
 
 ---
 
-# 📍 STUDY AREA
-
-## Delhi-NCR Region
-
-The primary study area is defined using a central reference point near Delhi:
-
-- **Latitude:** 28.6139° N
-- **Longitude:** 77.2090° E
-- **Analysis Buffer:** approximately 150 km
-
-The study area encompasses Delhi and surrounding parts of the National Capital Region and adjoining urbanising landscapes.
+# 🗺️ Study Area
 
 <p align="center">
-
-<img src="figures/fig3.jpg" width="850" alt="Delhi-NCR Study Area and 150 km Analysis Buffer">
-
+  <img src="./figures/fig3.jpg" width="900" alt="fig3.jpg">
 </p>
 
 <p align="center">
-<em>Figure 3. Delhi-NCR study framework showing the central reference location and approximately 150 km analysis buffer.</em>
+  <strong>fig3.jpg — Delhi-NCR Study Area and 150 km AOI</strong>
 </p>
+
+The research focuses on the Delhi-NCR region and surrounding areas using an approximate **150 km buffer** around the study centre:
+
+**28.6139° N, 77.2090° E**
+
+The larger buffer is used to provide regional environmental context and enable comparison between:
+
+- Dense urban areas
+- Peri-urban zones
+- Agricultural regions
+- Forest/vegetated areas
+- Water bodies
+- Industrial areas
+- Rural surroundings
 
 ### Spatial Concept
 
-```text
-                    NORTHERN NCR
-                         │
-                         │
-             ┌───────────┴───────────┐
-             │                       │
-       WESTERN NCR               EASTERN NCR
-             │                       │
-             │       DELHI           │
-             │         ●             │
-             │                       │
-             └───────────┬───────────┘
-                         │
-                   SOUTHERN NCR
-                         │
+<pre><code>
+                    Regional Study Area
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │    Delhi-NCR    │
+                  │      Core       │
+                  └────────┬────────┘
+                           │
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+        Urban Core     Peri-Urban     Rural Zone
+             │             │             │
+             └─────────────┼─────────────┘
+                           ▼
                     150 km AOI
-```
+                           │
+                           ▼
+                Regional Environmental
+                       Context
+</code></pre>
 
 ---
 
-# 🛰️ DATA SOURCES
+# 🛰️ Data Sources
 
-| Dataset | Purpose |
+<p align="center">
+  <img src="./figures/fig4.jpg" width="900" alt="fig4.jpg">
+</p>
+
+<p align="center">
+  <strong>fig4.jpg — Multi-Temporal Satellite Data Strategy</strong>
+</p>
+
+| Dataset | Application |
 |---|---|
-| Landsat 5 | Historical optical + thermal observations |
-| Landsat 7 | Intermediate-period optical + thermal observations |
-| Landsat 8 | Modern optical + thermal observations |
-| Landsat 9 | Recent optical + thermal observations |
-| MODIS | Independent thermal comparison / supporting analysis |
+| Landsat 5 TM | Historical LST and spectral analysis |
+| Landsat 7 ETM+ | Historical LST and spectral analysis |
+| Landsat 8 OLI/TIRS | LST and spectral analysis |
+| Landsat 9 OLI-2/TIRS-2 | Recent LST and spectral analysis |
+| MODIS | Temporal thermal support and validation |
 | ESA WorldCover | Land-cover classification |
-| SRTM | Elevation / terrain correction and interpretation |
+| SRTM | Elevation and terrain variables |
 | Administrative Boundaries | Spatial reporting |
-| Supporting Meteorological Data | Validation where available |
-
-<p align="center">
-
-<img src="figures/fig4.jpg" width="850" alt="Multi-Temporal Satellite Data Strategy">
-
-</p>
-
-<p align="center">
-<em>Figure 4. Multi-temporal and multi-sensor data strategy used to reconstruct the Delhi-NCR thermal environment.</em>
-</p>
+| Meteorological Data | Validation where available |
+| Additional EO datasets | Supporting environmental analysis |
 
 ---
 
-# 🛰️ LANDSAT DATA STRATEGY
+# 🛰️ Landsat Data Strategy
 
-The project uses Landsat observations to reconstruct long-term surface characteristics.
+The historical satellite strategy uses appropriate Landsat missions according to sensor availability.
 
-### Historical Windows
+### Historical Sensor Sequence
 
-Representative target years include:
+<pre><code>
+1995 ─────────────── 2011 ─────── 2013 ───────── 2022 ───── 2025
+ │                     │             │               │          │
+ Landsat 5             Landsat 5/7   Landsat 8       Landsat 9  Latest
+ │                     │             │               │          │
+ └──────── Historical Multi-Sensor Earth Observation ──────────┘
+</code></pre>
 
-- 1995
-- 2005
-- 2015
-- 2025
+Cross-sensor differences must be considered during long-term analysis.
 
-Additional annual or seasonal observations can be incorporated where data availability and quality permit.
+A consistent methodology should therefore be applied wherever possible for:
 
-### Future Window
-
-- 2030
-- 2035
-- 2040
-- 2045
-
-Future values are **model outputs**, not satellite observations.
-
----
-
-# 🎨 SPECTRAL INDICES
-
-## 🌿 NDVI
-
-Normalized Difference Vegetation Index:
-
-$$
-NDVI = \frac{NIR-Red}{NIR+Red}
-$$
-
-Interpretation:
-
-- Higher NDVI → greater vegetation signal
-- Lower NDVI → sparse vegetation / built-up / exposed surfaces
-
----
-
-## 🏙️ NDBI
-
-Normalized Difference Built-up Index:
-
-$$
-NDBI = \frac{SWIR-NIR}{SWIR+NIR}
-$$
-
-Interpretation:
-
-- Higher NDBI → stronger built-up signal
-- Lower NDBI → comparatively less built-up surface
-
----
-
-## 💧 NDWI
-
-Normalized Difference Water Index:
-
-$$
-NDWI = \frac{Green-NIR}{Green+NIR}
-$$
-
-NDWI is used for water-related masking and interpretation.
-
----
-
-# 🌡️ LAND SURFACE TEMPERATURE
-
-Land Surface Temperature is one of the primary dependent variables of the research.
-
-The processing chain must distinguish between:
-
-- Top-of-Atmosphere thermal information
-- Brightness Temperature
-- Surface emissivity
+- Cloud masking
 - Atmospheric correction
-- Surface Temperature / LST
-
-Where USGS Landsat Collection 2 Level-2 Surface Temperature products are used, the supplied L2 scaling should be applied directly.
-
-A custom Sobrino-style retrieval should instead be implemented using appropriate thermal inputs and atmospheric/emissivity parameters rather than applying the correction again to an already retrieved L2 surface-temperature product.
+- Thermal calibration
+- Scaling
+- Emissivity estimation
+- Spatial aggregation
+- Temporal compositing
 
 ---
 
-# 🧮 VEGETATION PROPORTION
+# 🌿 Spectral Indices
 
-Fractional vegetation cover can be estimated using NDVI:
+## NDVI — Normalized Difference Vegetation Index
 
-$$
-P_v =
-\left(
-\frac{NDVI-NDVI_{min}}
-{NDVI_{max}-NDVI_{min}}
-\right)^2
-$$
+NDVI is used as a vegetation indicator.
+
+**Formula:**
+
+`NDVI = (NIR - RED) / (NIR + RED)`
+
+Higher NDVI generally indicates stronger vegetation presence.
+
+---
+
+## 🏙️ NDBI — Normalized Difference Built-up Index
+
+NDBI is used as an indicator of built-up intensity.
+
+**Formula:**
+
+`NDBI = (SWIR - NIR) / (SWIR + NIR)`
+
+Higher NDBI generally indicates stronger built-up characteristics.
+
+---
+
+## 💧 NDWI — Normalized Difference Water Index
+
+NDWI is used to identify surface-water-related conditions.
+
+**Formula:**
+
+`NDWI = (GREEN - NIR) / (GREEN + NIR)`
+
+---
+
+# 🌡️ Land Surface Temperature Methodology
+
+The LST processing chain generally follows:
+
+**Thermal Digital Number / Radiance → Brightness Temperature → NDVI → Vegetation Proportion → Emissivity → Land Surface Temperature**
+
+---
+
+# 🌱 Vegetation Proportion
+
+A commonly used formulation is:
+
+`Pv = ((NDVI - NDVImin) / (NDVImax - NDVImin))²`
 
 where:
 
-- $P_v$ = proportion of vegetation
-- $NDVI_{min}$ = minimum NDVI
-- $NDVI_{max}$ = maximum NDVI
+- `Pv` = vegetation proportion
+- `NDVImin` = minimum NDVI within the selected range
+- `NDVImax` = maximum NDVI within the selected range
 
 ---
 
-# 🔥 EMISSIVITY
+# 🔥 Surface Emissivity
 
-A simplified emissivity relationship can be represented as:
+An emissivity approximation can be calculated using vegetation proportion:
 
-$$
-\varepsilon = 0.986 + 0.004P_v
-$$
+`ε = 0.004 × Pv + 0.986`
 
-The exact emissivity formulation should be documented according to the selected retrieval methodology.
+The exact emissivity approach should be adapted to:
 
----
-
-# 🌡️ TEMPERATURE CONVERSION
-
-For Landsat Collection 2 Level-2 Surface Temperature:
-
-$$
-LST_K = ST\_B10 \times 0.00341802 + 149.0
-$$
-
-and:
-
-$$
-LST_{°C}=LST_K-273.15
-$$
-
-This conversion represents the supplied Level-2 surface-temperature product scaling.
+- Sensor
+- Land-cover condition
+- Available thermal bands
+- Research objective
+- Validation requirements
 
 ---
 
-# 🧠 CONCEPTUAL FRAMEWORK
+# 🌡️ LST Scaling
 
-```text
-                    MULTI-TEMPORAL SATELLITE DATA
-                              │
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-       LANDSAT               MODIS          SUPPORT DATA
-          │                                       │
-          ▼                                       ▼
-   PREPROCESSING                         WORLD COVER / SRTM
-          │
-          ▼
-    CLOUD MASKING
-          │
-          ▼
-   TEMPORAL COMPOSITING
-          │
-          ▼
- ┌─────────────────────────────┐
- │ Spectral & Thermal Metrics  │
- └─────────────────────────────┘
-          │
-    ┌─────┼─────┬─────┐
-    ▼     ▼     ▼     ▼
-   NDVI  NDBI  NDWI  LST
-    │     │     │     │
-    └─────┴─────┴─────┘
-              │
-              ▼
-       SPATIAL ANALYSIS
-              │
-              ▼
-       TEMPORAL ANALYSIS
-              │
-              ▼
-       HOTSPOT DETECTION
-              │
-              ▼
-      STATISTICAL MODELS
-              │
-              ▼
-      MACHINE LEARNING
-              │
-              ▼
-       MODEL VALIDATION
-              │
-              ▼
-      FUTURE PROJECTION
-              │
-              ▼
-          2045 SCENARIOS
-              │
-              ▼
-     MITIGATION / PLANNING
-```
+For a generic scaled thermal product:
+
+`LST(K) = DN × Scale Factor + Offset`
+
+Conversion to Celsius:
+
+`LST(°C) = LST(K) - 273.15`
+
+The exact scale factor and offset must be taken from the metadata of the specific Earth Engine dataset being used.
 
 ---
 
-# 🔬 FOUR-PHASE RESEARCH LOG
+# 🧠 Integrated Conceptual Framework
 
-## PHASE I — FOUNDATION
-
-### Tasks
-
-- Literature review
-- Study-area definition
-- Satellite-data inventory
-- Data-quality assessment
-- Coordinate-system verification
-- Research database creation
-- Initial GEE scripts
-- Initial Python environment
-- Methodology documentation
-
-### Deliverables
-
-- Literature database
-- AOI
-- Data inventory
-- Initial GEE scripts
-- Research log
+<pre><code>
+              SATELLITE OBSERVATIONS
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+      Landsat         MODIS       Supporting EO
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+                 PREPROCESSING
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+         LST          NDVI         NDBI
+          │            │            │
+          └────────────┼────────────┘
+                       ▼
+                     NDWI
+                       │
+                       ▼
+              LAND-COVER ANALYSIS
+                       │
+                       ▼
+                  UHI ANALYSIS
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+   Trend Analysis   Hotspots      Correlation
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+             MACHINE LEARNING
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+    Regression      RF / GBM         LSTM
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+                MODEL VALIDATION
+                       │
+                       ▼
+              FUTURE PROJECTION
+                       │
+                       ▼
+                     2045
+</code></pre>
 
 ---
 
-# PHASE II — HISTORICAL RECONSTRUCTION
+# 📚 Four-Phase Research Log
 
-### Period
+## Phase 1 — Data Preparation
 
-**1995–2025**
+- Define AOI
+- Collect datasets
+- Verify temporal coverage
+- Apply cloud masking
+- Standardise datasets
+- Create annual/seasonal composites
+- Generate quality-control layers
 
-### Tasks
+## Phase 2 — Historical Analysis
 
-- Landsat preprocessing
-- Cloud masking
-- Seasonal filtering
-- Temporal compositing
+- LST generation
 - NDVI generation
 - NDBI generation
 - NDWI generation
-- LST generation
 - Land-cover analysis
-- Historical comparison
+- UHI intensity calculation
+- Hotspot analysis
+- Temporal trend analysis
 
-### Deliverables
+## Phase 3 — Statistical & ML Modelling
 
-- Historical raster datasets
-- LST maps
-- NDVI maps
-- NDBI maps
-- NDWI maps
-- Change-detection maps
-
----
-
-# PHASE III — MODELLING
-
-### Tasks
-
-- Statistical correlation
+- Correlation analysis
 - Regression analysis
 - Feature engineering
+- Training/validation split
 - Random Forest
 - Gradient Boosting
-- Time-series analysis
-- LSTM experimentation
-- Cross-validation
+- LSTM
+- Performance comparison
 - Error analysis
-- Feature importance analysis
 
-### Deliverables
+## Phase 4 — Future Projection
 
-- Trained models
-- Validation datasets
-- Performance metrics
-- Prediction maps
-- Model interpretation
-
----
-
-# PHASE IV — FUTURE PROJECTION
-
-### Period
-
-**2025–2045**
-
-### Tasks
-
-- Scenario construction
-- Feature projection
-- Future LST modelling
-- Thermal hotspot projection
-- Uncertainty analysis
-- Urban-risk interpretation
-- Mitigation scenario development
-
-### Deliverables
-
-- 2030 projection
-- 2035 projection
-- 2040 projection
+- Scenario development
+- Predictor generation
+- Model application
 - 2045 projection
-- Future thermal-risk maps
+- Uncertainty assessment
+- Spatial interpretation
+- Research conclusions
 
 ---
 
-# 🗺️ METHODOLOGY WORKFLOW
+# 🔄 Methodology Workflow
 
-```text
-DATA ACQUISITION
-      ↓
-QUALITY CONTROL
-      ↓
-CLOUD / SHADOW MASKING
-      ↓
-TEMPORAL COMPOSITING
-      ↓
-RADIOMETRIC / PRODUCT SCALING
-      ↓
-LST RETRIEVAL
-      ↓
-NDVI / NDBI / NDWI
-      ↓
-LAND-COVER INTEGRATION
-      ↓
-SPATIAL NORMALISATION
-      ↓
-MULTI-DECADAL COMPARISON
-      ↓
-CORRELATION ANALYSIS
-      ↓
-HOTSPOT DETECTION
-      ↓
-FEATURE ENGINEERING
-      ↓
-MACHINE LEARNING
-      ↓
-VALIDATION
-      ↓
-PREDICTIVE MODELLING
-      ↓
-2030 / 2035 / 2040 / 2045
-      ↓
-UNCERTAINTY ANALYSIS
-      ↓
-THERMAL-RISK ASSESSMENT
-```
+<pre><code>
+START
+  │
+  ▼
+Define Research Questions
+  │
+  ▼
+Define AOI
+  │
+  ▼
+Acquire Satellite & Supporting Data
+  │
+  ▼
+Preprocess & Quality Control
+  │
+  ▼
+Generate LST / NDVI / NDBI / NDWI
+  │
+  ▼
+Land-Cover Analysis
+  │
+  ▼
+Historical UHI Analysis
+  │
+  ▼
+Trend + Correlation + Regression
+  │
+  ▼
+Feature Engineering
+  │
+  ▼
+Machine Learning
+  │
+  ▼
+Validation + Error Analysis
+  │
+  ▼
+Scenario Development
+  │
+  ▼
+2045 Projection
+  │
+  ▼
+Uncertainty & Interpretation
+  │
+  ▼
+Final Research Outputs
+</code></pre>
 
 ---
 
-# 💻 GOOGLE EARTH ENGINE
+# 💻 Google Earth Engine Processing
 
-The following example demonstrates a basic Landsat 8 Level-2 workflow for Delhi-NCR.
+The following workflow represents the general processing concept.
 
-```javascript
+<pre><code class="language-javascript">
 // ============================================================
-// DELHI-NCR UHI ANALYSIS
-// Landsat 8 Collection 2 Level-2
+// DELHI-NCR UHI RESEARCH
+// Landsat-based LST / NDVI / NDBI / NDWI workflow
 // ============================================================
 
-var delhi = ee.Geometry.Point([77.2090, 28.6139]);
+var center = ee.Geometry.Point([77.2090, 28.6139]);
 
-var aoi = delhi.buffer(150000);
+var aoi = center.buffer(150000);
 
-// ------------------------------------------------------------
-// LANDSAT COLLECTION
-// ------------------------------------------------------------
+Map.centerObject(aoi, 8);
 
-var collection = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
+var landsat8 = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
   .filterBounds(aoi)
-  .filterDate('2025-04-01', '2025-06-30')
-  .filter(ee.Filter.lt('CLOUD_COVER', 10));
+  .filterDate('2015-01-01', '2025-12-31')
+  .filter(ee.Filter.lt('CLOUD_COVER', 30));
 
-// ------------------------------------------------------------
-// CLOUD / SHADOW MASK
-// ------------------------------------------------------------
-
-function maskClouds(image) {
+function maskLandsat(image) {
 
   var qa = image.select('QA_PIXEL');
 
-  var cloudShadowBitMask = (1 << 3);
-  var cloudsBitMask = (1 << 4);
+  var cloudShadowBitMask = 1 << 4;
+  var cloudBitMask = 1 << 3;
 
   var mask = qa.bitwiseAnd(cloudShadowBitMask).eq(0)
-    .and(qa.bitwiseAnd(cloudsBitMask).eq(0));
+    .and(qa.bitwiseAnd(cloudBitMask).eq(0));
 
   return image.updateMask(mask);
 }
 
-// ------------------------------------------------------------
-// COMPOSITE
-// ------------------------------------------------------------
+function addIndices(image) {
 
-var processed = collection
-  .map(maskClouds)
-  .median()
-  .clip(aoi);
+  var ndvi = image.normalizedDifference(
+    ['SR_B5', 'SR_B4']
+  ).rename('NDVI');
 
-// ------------------------------------------------------------
-// NDVI
-// ------------------------------------------------------------
+  var ndbi = image.normalizedDifference(
+    ['SR_B6', 'SR_B5']
+  ).rename('NDBI');
 
-var ndvi = processed
-  .normalizedDifference(['SR_B5', 'SR_B4'])
-  .rename('NDVI');
+  var ndwi = image.normalizedDifference(
+    ['SR_B3', 'SR_B5']
+  ).rename('NDWI');
 
-// ------------------------------------------------------------
-// NDBI
-// ------------------------------------------------------------
+  return image
+    .addBands(ndvi)
+    .addBands(ndbi)
+    .addBands(ndwi);
+}
 
-var ndbi = processed
-  .normalizedDifference(['SR_B6', 'SR_B5'])
-  .rename('NDBI');
+var processed = landsat8
+  .map(maskLandsat)
+  .map(addIndices);
 
-// ------------------------------------------------------------
-// NDWI
-// ------------------------------------------------------------
-
-var ndwi = processed
-  .normalizedDifference(['SR_B3', 'SR_B5'])
-  .rename('NDWI');
-
-// ------------------------------------------------------------
-// LAND SURFACE TEMPERATURE
-// Landsat Collection 2 Level-2 ST_B10
-// ------------------------------------------------------------
-
-var lstC = processed
-  .select('ST_B10')
-  .multiply(0.00341802)
-  .add(149.0)
-  .subtract(273.15)
-  .rename('LST_C');
-
-// ------------------------------------------------------------
-// WATER MASK
-// ------------------------------------------------------------
-
-var lstMasked = lstC.updateMask(ndwi.lt(0.3));
-
-// ------------------------------------------------------------
-// VISUALISATION
-// ------------------------------------------------------------
-
-var heatVis = {
-  min: 25.0,
-  max: 50.0,
-  palette: [
-    '#0000FF',
-    '#00FFFF',
-    '#FFFF00',
-    '#FF7F00',
-    '#FF0000'
-  ]
-};
-
-var ndviVis = {
-  min: -0.2,
-  max: 0.8,
-  palette: [
-    '#8B0000',
-    '#FFFF00',
-    '#00FF00',
-    '#006400'
-  ]
-};
-
-var ndbiVis = {
-  min: -0.5,
-  max: 0.5,
-  palette: [
-    '#0000FF',
-    '#FFFFFF',
-    '#FF0000'
-  ]
-};
-
-// ------------------------------------------------------------
-// MAP
-// ------------------------------------------------------------
-
-Map.centerObject(delhi, 8);
+var composite = processed.median().clip(aoi);
 
 Map.addLayer(
-  lstMasked,
-  heatVis,
-  'LST Delhi-NCR (°C)'
-);
-
-Map.addLayer(
-  ndvi,
-  ndviVis,
+  composite.select('NDVI'),
+  {min: -0.2, max: 0.8},
   'NDVI'
 );
 
 Map.addLayer(
-  ndbi,
-  ndbiVis,
+  composite.select('NDBI'),
+  {min: -0.5, max: 0.5},
   'NDBI'
 );
 
 Map.addLayer(
-  ndwi,
-  {},
+  composite.select('NDWI'),
+  {min: -0.5, max: 0.5},
   'NDWI'
 );
-```
+</code></pre>
 
 ---
 
-# 🧪 LST PROCESSING NOTE
+# 🌡️ LST Processing Chain
 
-The example above uses the **USGS Landsat Collection 2 Level-2 Surface Temperature product**.
-
-Therefore:
-
-```text
-ST_B10
-      ↓
-Scale factor
-      ↓
-Kelvin
-      ↓
-°C conversion
-      ↓
-LST
-```
-
-A separate custom Sobrino retrieval should not be applied directly to this already-derived L2 surface-temperature product.
-
-For a custom physical retrieval, the project should document:
-
-- Radiance conversion
-- Brightness temperature
-- Atmospheric transmissivity
-- Upwelling radiance
-- Downwelling radiance
-- Surface emissivity
-- Atmospheric correction parameters
-- Sensor-specific coefficients
+<pre><code>
+Satellite Thermal Band
+        │
+        ▼
+Radiometric Calibration
+        │
+        ▼
+Brightness Temperature
+        │
+        ▼
+NDVI Calculation
+        │
+        ▼
+Vegetation Proportion
+        │
+        ▼
+Surface Emissivity
+        │
+        ▼
+Land Surface Temperature
+        │
+        ▼
+UHI Intensity
+</code></pre>
 
 ---
 
-# 📊 HISTORICAL ANALYSIS
+# 📅 Historical Analysis: 1995–2025
 
-The research framework compares representative historical periods:
+The historical component is divided into representative temporal snapshots and/or annual composites.
 
-| Year | Historical Role |
+| Year | Analysis |
 |---|---|
-| 1995 | Baseline |
-| 2005 | Early urbanisation stage |
-| 2015 | Intermediate stage |
-| 2025 | Recent observation |
-| 2030 | Modelled projection |
-| 2035 | Modelled projection |
-| 2040 | Modelled projection |
-| 2045 | Long-term modelled projection |
+| 1995 | Historical baseline |
+| 2005 | Mid-period historical condition |
+| 2015 | Recent historical transition |
+| 2025 | Latest historical/reference condition |
+
+---
+
+# 🌡️ 1995 Historical LST
 
 <p align="center">
-
-<img src="figures/fig5.jpg" width="850" alt="1995 Delhi-NCR Land Surface Temperature">
-
+  <img src="./figures/fig5.jpg" width="900" alt="fig5.jpg">
 </p>
 
 <p align="center">
-<em>Figure 5. Representative 1995 historical LST analysis for establishing the thermal baseline.</em>
-</p>
-
-<p align="center">
-
-<img src="figures/fig6.jpg" width="850" alt="2005 Delhi-NCR Land Surface Temperature">
-
-</p>
-
-<p align="center">
-<em>Figure 6. Representative 2005 LST distribution used for comparison with the historical baseline.</em>
-</p>
-
-<p align="center">
-
-<img src="figures/fig7.jpg" width="850" alt="2015 Delhi-NCR Land Surface Temperature">
-
-</p>
-
-<p align="center">
-<em>Figure 7. Representative 2015 LST distribution showing the intermediate stage of the multi-decadal analysis.</em>
-</p>
-
-<p align="center">
-
-<img src="figures/fig8.jpg" width="850" alt="2025 Delhi-NCR Land Surface Temperature">
-
-</p>
-
-<p align="center">
-<em>Figure 8. Representative 2025 LST distribution representing the recent historical observation period.</em>
+  <strong>fig5.jpg — 1995 Historical LST</strong>
 </p>
 
 ---
 
-# 📈 PROJECT OUTPUT TABLE
-
-The following table is reserved for **project-derived results**.
-
-Values should be regenerated from the final reproducible processing pipeline before publication.
-
-| Year | Mean LST (°C) | Minimum (°C) | Maximum (°C) | NDVI Change | NDBI Change | Hotspot Count |
-|---|---:|---:|---:|---:|---:|---:|
-| 1995 | 29.8 | 26.3 | 41.8 | Baseline | Baseline | 12 |
-| 2005 | 32.4 | 27.1 | 44.2 | -18.2% | +24.2% | 28 |
-| 2015 | 35.1 | 28.5 | 46.5 | -29.7% | +41.3% | 47 |
-| 2025 | 37.9 | 29.7 | 47.9 | -36.4% | +58.2% | 66 |
-| 2045* | 41.2–41.9 | 32.4 | 51.2 | -49.1% | +78.6% | 97 |
-
-**\*2045 values represent modelled/projected outputs rather than direct satellite observations.**
-
-These values should be treated as **current project outputs pending final reproducibility and independent validation**.
-
----
-
-# 📉 STATISTICAL ANALYSIS
-
-The research investigates relationships between:
-
-### LST ↔ NDVI
-
-Expected analytical question:
-
-> Does increasing vegetation correspond to lower surface temperature?
-
-### LST ↔ NDBI
-
-Expected analytical question:
-
-> Does increasing built-up intensity correspond to higher surface temperature?
-
-### LST ↔ NDWI
-
-Expected analytical question:
-
-> Does water availability influence local thermal conditions?
-
-### Multivariate Relationship
-
-A general regression structure may be represented as:
-
-$$
-LST =
-\beta_0 +
-\beta_1(NDVI) +
-\beta_2(NDBI) +
-\beta_3(NDWI) +
-\beta_4(Elevation) +
-\epsilon
-$$
-
----
-
-# 🤖 MACHINE LEARNING FRAMEWORK
-
-Candidate models include:
-
-## 1. Linear Regression
-
-Used as a baseline model.
-
-## 2. Random Forest Regression
-
-Used to capture nonlinear relationships between environmental predictors and LST.
-
-## 3. Gradient Boosting
-
-Used for nonlinear regression and feature interaction analysis.
-
-## 4. LSTM
-
-Long Short-Term Memory networks may be explored for temporal sequence modelling where sufficiently long and consistent time-series observations are available.
+# 🌡️ 2005 Historical LST
 
 <p align="center">
-
-<img src="figures/fig9.jpg" width="850" alt="UHI Hotspot Detection and Spatial Clustering">
-
+  <img src="./figures/fig6.jpg" width="900" alt="fig6.jpg">
 </p>
 
 <p align="center">
-<em>Figure 9. Spatial identification and visualisation of persistent or high-intensity thermal hotspot zones.</em>
+  <strong>fig6.jpg — 2005 Historical LST</strong>
 </p>
 
 ---
 
-# 📊 MODEL PERFORMANCE FRAMEWORK
-
-Model evaluation should use independent validation data or properly separated temporal/spatial folds.
-
-Example project metrics:
-
-| Model | R² | RMSE |
-|---|---:|---:|
-| Linear Regression | 0.71 | 2.9°C |
-| Random Forest | 0.87 | 1.6°C |
-| LSTM | 0.91 | 1.2°C |
-
-These values represent **project-reported/model-development outputs** and must be regenerated and independently validated before being presented as final scientific performance.
+# 🌡️ 2015 Historical LST
 
 <p align="center">
-
-<img src="figures/fig10.jpg" width="850" alt="Machine Learning and Predictive Modelling Workflow">
-
+  <img src="./figures/fig7.jpg" width="900" alt="fig7.jpg">
 </p>
 
 <p align="center">
-<em>Figure 10. Machine-learning and predictive-modelling framework linking environmental predictors with LST prediction and validation.</em>
+  <strong>fig7.jpg — 2015 Historical LST</strong>
 </p>
 
 ---
 
-# ✅ MODEL VALIDATION
+# 🌡️ 2025 Historical LST
 
-Recommended validation framework:
+<p align="center">
+  <img src="./figures/fig8.jpg" width="900" alt="fig8.jpg">
+</p>
 
-```text
-Historical Data
-      │
-      ├─────────────── Training Set
-      │
-      └─────────────── Validation Set
-                         │
-                         ▼
-                    Model Output
-                         │
-                         ▼
-                 Independent Data
-                         │
-                         ▼
-              Performance Metrics
-```
-
-Primary metrics:
-
-- R²
-- RMSE
-- MAE
-- Bias
-- Residual distribution
-- Spatial error
-- Temporal error
-
-For time-series models, chronological validation should be preferred over random shuffling where appropriate.
+<p align="center">
+  <strong>fig8.jpg — 2025 Historical LST</strong>
+</p>
 
 ---
 
-# ⚠️ VALIDATION & ERROR ANALYSIS
+# 📈 Project Output Framework
+
+The following values represent the type of output that may be generated after complete processing.
+
+| Period | Mean LST | UHI Pattern | Dominant Drivers |
+|---|---:|---|---|
+| 1995 | Derived from satellite data | Historical baseline | Initial urban structure |
+| 2005 | Derived from satellite data | Increasing urban influence | Built-up expansion |
+| 2015 | Derived from satellite data | Stronger urban thermal contrast | Urbanisation + vegetation change |
+| 2025 | Derived from satellite data | Current historical condition | Built-up density + surface properties |
+| 2045 | Modelled | Projected condition | Scenario-dependent |
+
+**Important:** Numerical values for 2045 must only be reported after model training, validation, scenario specification and uncertainty analysis.
+
+---
+
+# 📊 Statistical Analysis
+
+Statistical analysis includes:
+
+- Descriptive statistics
+- Mean
+- Median
+- Minimum
+- Maximum
+- Standard deviation
+- Percentiles
+- Temporal trend
+- Spatial variability
+- Pearson correlation
+- Spearman correlation where appropriate
+- Linear regression
+- Residual analysis
+
+### Example Regression
+
+`LST = β0 + β1(NDVI) + β2(NDBI) + β3(NDWI) + ε`
+
+where:
+
+- `β0` = intercept
+- `β1, β2, β3` = regression coefficients
+- `ε` = residual/error term
+
+---
+
+# 🤖 Machine Learning Framework
+
+Machine Learning is used to model relationships between environmental predictors and LST/UHI.
+
+Potential models include:
+
+### 1. Linear Regression
+
+Provides an interpretable baseline.
+
+### 2. Random Forest
+
+Useful for nonlinear relationships and feature-importance analysis.
+
+### 3. Gradient Boosting
+
+Useful for modelling complex nonlinear relationships.
+
+### 4. LSTM
+
+Potentially useful for temporal sequences where sufficiently long, consistent time-series data are available.
+
+---
+
+# 🔥 UHI Hotspot Detection
+
+<p align="center">
+  <img src="./figures/fig9.jpg" width="900" alt="fig9.jpg">
+</p>
+
+<p align="center">
+  <strong>fig9.jpg — UHI Hotspot Detection</strong>
+</p>
+
+Hotspot analysis can identify:
+
+- Persistent high-temperature areas
+- Newly emerging hotspots
+- Seasonal hotspots
+- Urban-core hotspots
+- Industrial hotspots
+- Peri-urban transition zones
+
+Possible methods include:
+
+- LST threshold analysis
+- Relative UHI intensity
+- Z-score based hotspot analysis
+- Local spatial statistics
+- Getis-Ord Gi*
+- Moran's I
+- Temporal persistence analysis
+
+---
+
+# 📊 Model Performance
+
+Model performance should be assessed using independent validation data wherever possible.
+
+Potential metrics include:
+
+| Metric | Purpose |
+|---|---|
+| R² | Explained variance |
+| RMSE | Root Mean Square Error |
+| MAE | Mean Absolute Error |
+| MAPE | Percentage error where appropriate |
+| Bias | Systematic error |
+| Residual distribution | Error structure |
+| Spatial validation | Geographic robustness |
+| Temporal validation | Time-series robustness |
+
+No model should be declared superior solely on training performance.
+
+---
+
+# 🧠 Predictive Modelling
+
+<p align="center">
+  <img src="./figures/fig10.jpg" width="900" alt="fig10.jpg">
+</p>
+
+<p align="center">
+  <strong>fig10.jpg — Machine Learning / Predictive Modelling</strong>
+</p>
+
+The predictive framework follows:
+
+<pre><code>
+Historical EO Dataset
+        │
+        ▼
+Feature Engineering
+        │
+        ├── NDVI
+        ├── NDBI
+        ├── NDWI
+        ├── Elevation
+        ├── Land Cover
+        ├── LST
+        └── Temporal Variables
+        │
+        ▼
+Training Dataset
+        │
+        ▼
+ML Model
+        │
+        ▼
+Validation Dataset
+        │
+        ▼
+Performance Evaluation
+        │
+        ▼
+Validated Model
+        │
+        ▼
+Future Predictor Scenario
+        │
+        ▼
+2045 Projection
+</code></pre>
+
+---
+
+# 🧪 Model Validation
+
+<pre><code>
+Observed Historical Data
+          │
+          ▼
+     Train / Test Split
+          │
+     ┌────┴────┐
+     ▼         ▼
+ Training    Validation
+     │         │
+     ▼         ▼
+    Model → Prediction
+                │
+                ▼
+        Observed vs Predicted
+                │
+       ┌────────┼────────┐
+       ▼        ▼        ▼
+      R²       RMSE     MAE
+       │        │        │
+       └────────┼────────┘
+                ▼
+       Error / Residual Analysis
+                │
+                ▼
+        Model Reliability
+</code></pre>
+
+---
+
+# 🔍 Validation & Error Analysis
 
 Potential error sources include:
 
-- Atmospheric effects
-- Cloud contamination
-- Cloud-shadow contamination
-- Sensor differences
-- Landsat 7 SLC-off gaps
-- Seasonal variability
-- Different acquisition dates
-- Mixed pixels
-- Emissivity uncertainty
-- Atmospheric correction uncertainty
-- Resampling effects
-- Spatial resolution differences
-- MODIS–Landsat resolution mismatch
-- Model extrapolation uncertainty
+1. Sensor differences
+2. Atmospheric effects
+3. Cloud contamination
+4. Mixed pixels
+5. Thermal resolution
+6. Emissivity uncertainty
+7. Temporal mismatch
+8. Meteorological variability
+9. Land-cover classification errors
+10. Model assumptions
 
-Validation should therefore report uncertainty rather than presenting a single accuracy number without context.
+Validation should therefore use multiple independent lines of evidence wherever possible.
 
 ---
 
-# 🛰️ MULTI-SENSOR DATA FUSION
+# 🔗 Multi-Sensor Data Fusion
 
-The project integrates multiple datasets according to their scientific role.
-
-```text
-                 MULTI-SENSOR DATA
-                       │
-        ┌──────────────┼──────────────┐
-        │              │              │
-     LANDSAT          MODIS        WORLD COVER
-        │              │              │
-        ▼              ▼              ▼
-   High spatial    Thermal       Land-cover
-    information   comparison     information
-        │              │              │
-        └──────────────┼──────────────┘
-                       │
-                       ▼
-                 COMMON GRID
-                       │
-                       ▼
-              SPATIAL / TEMPORAL
-                 INTEGRATION
-                       │
-                       ▼
-                MODEL FEATURES
-```
-
----
-
-# 🏙️ URBAN THERMAL ZONING
-
-The project can classify thermal conditions into categories such as:
-
-- Low thermal intensity
-- Moderate thermal intensity
-- High thermal intensity
-- Very high thermal intensity
-- Extreme thermal hotspot
-
-Thresholds should be determined from the actual distribution of the study dataset and documented methodology rather than selected arbitrarily.
+<pre><code>
+Landsat
+  │
+  ├── High Spatial Resolution
+  │
+  ▼
+Detailed LST / Spectral Analysis
+  │
+  ├────────────────────┐
+  ▼                    ▼
+MODIS                WorldCover
+  │                    │
+  ▼                    ▼
+Temporal Support    Land Cover
+  │                    │
+  └─────────┬──────────┘
+            ▼
+          SRTM
+            │
+            ▼
+       Elevation Context
+            │
+            ▼
+     Integrated Dataset
+            │
+            ▼
+       UHI Modelling
+</code></pre>
 
 ---
 
-# 🔥 HOTSPOT DETECTION
+# 🏙️ Urban Thermal Zoning
 
-Potential approaches include:
+The region can be classified into thermal zones such as:
 
-- LST percentile thresholding
-- Local spatial statistics
-- Kernel density
-- Getis-Ord Gi*
-- Local Moran's I
-- Persistent hotspot analysis
-- Multi-year hotspot frequency
+- Very Low Thermal Zone
+- Low Thermal Zone
+- Moderate Thermal Zone
+- High Thermal Zone
+- Very High Thermal Zone
 
-A persistent hotspot may be defined based on repeated occurrence across multiple observation years.
+Thresholds must be determined from the actual dataset and research methodology rather than arbitrarily assigning universal values.
 
 ---
 
-# 🌿 NDVI–LST RELATIONSHIP
+# 🌿 NDVI–LST Relationship
 
-Vegetation can influence surface thermal behaviour through:
+<pre><code>
+Increasing Vegetation
+        │
+        ▼
+Higher NDVI
+        │
+        ▼
+Higher Evapotranspiration
+        │
+        ▼
+Reduced Surface Heating
+        │
+        ▼
+Lower LST
+        │
+        ▼
+Potential UHI Mitigation
+</code></pre>
 
-- Evapotranspiration
-- Shading
-- Moisture regulation
-- Surface energy partitioning
-- Albedo modification
-
-The project therefore examines spatial and temporal changes in:
-
-```text
-Vegetation ↓
-      ↓
-Evapotranspiration ↓
-      ↓
-Surface heat retention ↑
-      ↓
-Potential LST ↑
-```
-
-This relationship should be interpreted statistically rather than assumed to be universally causal.
-
----
-
-# 🏗️ NDBI–LST RELATIONSHIP
-
-Built-up surfaces can differ from vegetated surfaces in:
-
-- Heat capacity
-- Thermal conductivity
-- Surface roughness
-- Moisture availability
-- Albedo
-- Emissivity
-
-The project evaluates whether increasing NDBI is associated with increasing LST.
+Correlation strength must be calculated from actual observations.
 
 ---
 
-# 💧 WATER-BODY EFFECT
+# 🏢 NDBI–LST Relationship
 
-Water bodies may influence surrounding thermal conditions through:
+<pre><code>
+Urban Expansion
+      │
+      ▼
+Built-up Surface Increase
+      │
+      ▼
+Higher NDBI
+      │
+      ▼
+Modified Surface Energy Balance
+      │
+      ▼
+Potential LST Increase
+      │
+      ▼
+Higher UHI Intensity
+</code></pre>
+
+The relationship should be evaluated statistically rather than assumed to be identical across all locations and seasons.
+
+---
+
+# 💧 Water-Body Effect
+
+Water bodies can influence local thermal conditions through:
 
 - Evaporation
-- Heat storage
+- High heat capacity
+- Surface energy exchange
 - Moisture availability
-- Local energy exchange
+- Local microclimate effects
 
-NDWI-based masking is therefore used to reduce direct water-surface contamination in urban thermal analysis where appropriate.
+The spatial relationship between NDWI and LST can therefore be investigated to quantify the thermal influence of water bodies.
 
 ---
 
-# 🌐 FUTURE PROJECTION FRAMEWORK
-
-The 2045 component is a modelling exercise.
-
-It should not be interpreted as an actual satellite observation.
-
-```text
-1995 ─── 2000 ─── 2005 ─── 2010 ─── 2015 ─── 2020 ─── 2025
- │         │         │         │         │         │
- └────────────── HISTORICAL OBSERVATIONS ───────────────┘
-                              │
-                              ▼
-                       MODEL TRAINING
-                              │
-                              ▼
-                        2025 BASELINE
-                              │
-               ┌──────────────┼──────────────┐
-               ▼              ▼              ▼
-             2030           2035           2040
-               │              │              │
-               └──────────────┼──────────────┘
-                              ▼
-                            2045
-                       MODEL PROJECTION
-```
+# 🔮 Future Projection Framework: 2025–2045
 
 <p align="center">
-
-<img src="figures/fig11.jpg" width="850" alt="2045 Projected Delhi-NCR Urban Heat Island">
-
+  <img src="./figures/fig11.jpg" width="900" alt="fig11.jpg">
 </p>
 
 <p align="center">
-<em>Figure 11. Modelled 2045 future thermal projection. This figure represents a scenario/model output and not a direct satellite observation.</em>
+  <strong>fig11.jpg — 2045 Future UHI Projection</strong>
 </p>
 
----
+Future projection is based on the principle:
 
-# 🔮 2045 SCENARIO DESIGN
+**Historical Observations → Learned Relationships → Future Predictor Scenario → Modelled Thermal Projection**
 
-Potential scenarios include:
-
-### Scenario A — Continuation
-
-Historical urbanisation trends continue.
-
-### Scenario B — Accelerated Urbanisation
-
-Built-up expansion increases faster than the historical trend.
-
-### Scenario C — Green Intervention
-
-Vegetation and green infrastructure increase relative to the continuation scenario.
-
-### Scenario D — Water-Sensitive Development
-
-Urban planning incorporates water-sensitive and blue-green infrastructure.
-
-The scenarios should be implemented through clearly documented assumptions and model inputs.
+The 2045 output is therefore a **projection**, not an observation.
 
 ---
 
-# 🧠 FEATURE ENGINEERING
+# 🔮 2045 Scenario Design
 
-Potential predictors:
+Possible scenario variables include:
 
-```text
-NDVI
-NDBI
-NDWI
-Land Cover
-Elevation
-Distance from Urban Core
-Built-up Density
-Vegetation Fraction
-Water Proximity
-Historical LST
-Year
-Season
-Spatial Coordinates
-```
+### Urbanisation
 
-Derived features may include:
+- Built-up expansion
+- NDBI change
+- Urban density
 
-- NDVI trend
-- NDBI trend
-- LST trend
+### Vegetation
+
+- NDVI decline
+- Vegetation conservation
+- Green-space expansion
+
+### Water
+
+- Water-body persistence
+- Water-body loss
+- Wetness changes
+
+### Land Cover
+
+- Agricultural conversion
+- Built-up conversion
+- Vegetation transition
+
+Scenario assumptions must be explicitly documented.
+
+---
+
+# 🧬 Feature Engineering
+
+Potential predictor variables include:
+
+- Historical LST
+- NDVI
+- NDBI
+- NDWI
+- Land-cover class
+- Elevation
+- Slope
+- Distance from urban core
+- Distance from water bodies
+- Year
+- Season
+- Spatial coordinates
+- Historical trend
 - Land-cover transition
-- Urban expansion rate
-- Vegetation-loss rate
-- Thermal persistence
-- Distance-to-water
-- Distance-to-urban-core
 
 ---
 
-# 📊 VISUALISATIONS
+# 🖼️ Principal Figure Set
 
-The repository uses exactly **11 research figures**. Each figure has been assigned to a scientifically relevant location in this README.
+The repository contains **11 principal research figures**.
 
-| File | Integrated Research Role |
-|---|---|
-| `fig1.jpg` | Project overview / research cover |
-| `fig2.jpg` | Integrated conceptual research framework |
-| `fig3.jpg` | Delhi-NCR study area and AOI |
-| `fig4.jpg` | Multi-temporal satellite data strategy |
-| `fig5.jpg` | 1995 historical LST |
-| `fig6.jpg` | 2005 historical LST |
-| `fig7.jpg` | 2015 historical LST |
-| `fig8.jpg` | 2025 historical LST |
-| `fig9.jpg` | UHI hotspot detection |
-| `fig10.jpg` | Machine-learning / predictive modelling |
-| `fig11.jpg` | 2045 future projection |
+| Figure | Exact File Name | Purpose |
+|---|---|---|
+| Figure 1 | `fig1.jpg` | Project overview / research cover |
+| Figure 2 | `fig2.jpg` | Integrated conceptual research framework |
+| Figure 3 | `fig3.jpg` | Delhi-NCR study area and AOI |
+| Figure 4 | `fig4.jpg` | Multi-temporal satellite data strategy |
+| Figure 5 | `fig5.jpg` | 1995 historical LST |
+| Figure 6 | `fig6.jpg` | 2005 historical LST |
+| Figure 7 | `fig7.jpg` | 2015 historical LST |
+| Figure 8 | `fig8.jpg` | 2025 historical LST |
+| Figure 9 | `fig9.jpg` | UHI hotspot detection |
+| Figure 10 | `fig10.jpg` | Machine Learning / predictive modelling |
+| Figure 11 | `fig11.jpg` | 2045 future projection |
 
-The README intentionally does **not** reference `fig12.jpg`, `fig13.jpg`, `fig14.jpg` or `fig15.jpg`, because the final project visual set contains exactly **11 figures**.
+**Principal figure range: `fig1.jpg` → `fig11.jpg`**
 
----
-
-# 🎥 RESEARCH DEMONSTRATIONS
-
-The repository contains exactly **4 research videos**.
-
-These demonstrations are positioned as supporting visual evidence for the computational workflow rather than as substitutes for documented code, datasets or validation.
-
-## 🎬 Video 1 — Google Earth Engine Processing
-
-<video controls width="850">
-  <source src="videos/video1.mp4" type="video/mp4">
-  Your browser does not support embedded video. [Open Video 1](videos/video1.mp4)
-</video>
-
-**`video1.mp4` — GEE Processing Demonstration**
-
-Demonstrates the satellite-data processing environment, AOI selection, filtering, cloud masking, compositing and generation of environmental variables.
+**No `fig12.jpg`, `fig13.jpg`, `fig14.jpg` or `fig15.jpg` are part of the defined principal figure set.**
 
 ---
 
-## 🎬 Video 2 — LST Processing
+# 🎬 Research Demonstrations
 
-<video controls width="850">
-  <source src="videos/video2.mp4" type="video/mp4">
-  Your browser does not support embedded video. [Open Video 2](videos/video2.mp4)
-</video>
+## 🎬 video1.mp4
 
-**`video2.mp4` — LST Processing Demonstration**
+**Exact file:** `./videos/video1.mp4`
 
-Documents the thermal-processing stage, including the conversion of Landsat Level-2 Surface Temperature data into Celsius and subsequent thermal visualisation.
+[▶️ Open video1.mp4](./videos/video1.mp4)
 
----
-
-## 🎬 Video 3 — Python & Machine Learning
-
-<video controls width="850">
-  <source src="videos/video3.mp4" type="video/mp4">
-  Your browser does not support embedded video. [Open Video 3](videos/video3.mp4)
-</video>
-
-**`video3.mp4` — Python & Machine-Learning Demonstration**
-
-Demonstrates the scientific-computing workflow involving data preparation, statistical analysis, visualisation, model development and predictive analysis.
+**Purpose:** Google Earth Engine processing demonstration covering satellite-data preparation, filtering, preprocessing and Earth Observation workflow.
 
 ---
 
-## 🎬 Video 4 — Final Research Demonstration
+## 🎬 video2.mp4
 
-<video controls width="850">
-  <source src="videos/video4.mp4" type="video/mp4">
-  Your browser does not support embedded video. [Open Video 4](videos/video4.mp4)
-</video>
+**Exact file:** `./videos/video2.mp4`
 
-**`video4.mp4` — Final Research Demonstration**
+[▶️ Open video2.mp4](./videos/video2.mp4)
 
-Provides a consolidated visual demonstration of the research pipeline from satellite data and derived environmental variables through analysis, modelling and final research outputs.
+**Purpose:** LST processing demonstration covering thermal-data processing and Land Surface Temperature workflow.
 
 ---
 
-# 📁 REPOSITORY STRUCTURE
+## 🎬 video3.mp4
 
-```text
-Delhi-NCR-UHI-1995-2045/
+**Exact file:** `./videos/video3.mp4`
+
+[▶️ Open video3.mp4](./videos/video3.mp4)
+
+**Purpose:** Python and Machine Learning demonstration covering data processing, statistical analysis and predictive modelling.
+
+---
+
+## 🎬 video4.mp4
+
+**Exact file:** `./videos/video4.mp4`
+
+[▶️ Open video4.mp4](./videos/video4.mp4)
+
+**Purpose:** Final integrated research demonstration covering the overall research pipeline and outputs.
+
+---
+
+# 📁 Repository Structure
+
+<pre><code>
+UHI-Delhi-NCR-1995-2045/
 │
 ├── README.md
-├── LICENSE
-├── CITATION.cff
-├── requirements.txt
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   ├── validation/
-│   └── metadata/
-│
-├── gee/
-│   ├── landsat_preprocessing.js
-│   ├── lst_processing.js
-│   ├── ndvi_ndbi_ndwi.js
-│   ├── hotspot_detection.js
-│   └── export_pipeline.js
-│
-├── python/
-│   ├── preprocessing.py
-│   ├── statistics.py
-│   ├── visualization.py
-│   ├── random_forest.py
-│   ├── gradient_boosting.py
-│   ├── lstm_model.py
-│   └── prediction.py
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_lst_analysis.ipynb
-│   ├── 03_ndvi_ndbi_analysis.ipynb
-│   ├── 04_machine_learning.ipynb
-│   └── 05_future_projection.ipynb
 │
 ├── figures/
 │   ├── fig1.jpg
@@ -1444,708 +1256,797 @@ Delhi-NCR-UHI-1995-2045/
 │   ├── fig10.jpg
 │   └── fig11.jpg
 │
-├── maps/
-│   ├── lst/
-│   ├── ndvi/
-│   ├── ndbi/
-│   ├── ndwi/
-│   ├── landcover/
-│   ├── hotspots/
-│   └── projections/
+├── videos/
+│   ├── video1.mp4
+│   ├── video2.mp4
+│   ├── video3.mp4
+│   └── video4.mp4
+│
+├── gee/
+│   ├── landsat_processing.js
+│   ├── lst_processing.js
+│   ├── ndvi_processing.js
+│   ├── ndbi_processing.js
+│   └── ndwi_processing.js
+│
+├── python/
+│   ├── preprocessing.py
+│   ├── lst_analysis.py
+│   ├── statistical_analysis.py
+│   ├── hotspot_analysis.py
+│   ├── random_forest.py
+│   ├── gradient_boosting.py
+│   └── lstm_model.py
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── validation/
 │
 ├── results/
+│   ├── maps/
 │   ├── tables/
 │   ├── statistics/
-│   ├── model_metrics/
-│   └── predictions/
+│   └── models/
 │
-├── logbook/
-│   ├── phase1_foundation.md
-│   ├── phase2_historical.md
-│   ├── phase3_modelling.md
-│   └── phase4_projection.md
-│
-└── videos/
-    ├── video1.mp4
-    ├── video2.mp4
-    ├── video3.mp4
-    └── video4.mp4
-```
+└── documentation/
+    ├── research_log.md
+    ├── methodology.md
+    └── validation.md
+</code></pre>
 
 ---
 
-# 🔁 REPRODUCIBILITY
+# ♻️ Reproducibility
 
-The project follows a reproducible research philosophy.
+The research should be reproducible through:
 
-A reproducible analysis should preserve:
-
-1. Input dataset identity
-2. Acquisition date
-3. Dataset version
-4. Processing parameters
-5. Cloud threshold
-6. AOI
-7. Spatial resolution
-8. Temporal window
-9. Mathematical formulation
-10. Model parameters
-11. Training/validation split
-12. Random seeds where applicable
-13. Software versions
-14. Output metadata
-
----
-
-# 🧪 QUALITY CONTROL
-
-Before publication, every major result should pass:
-
-```text
-DATA CHECK
-   ↓
-PROJECTION CHECK
-   ↓
-CLOUD MASK CHECK
-   ↓
-MISSING DATA CHECK
-   ↓
-SPATIAL RESOLUTION CHECK
-   ↓
-TEMPORAL CONSISTENCY CHECK
-   ↓
-FORMULA CHECK
-   ↓
-STATISTICAL CHECK
-   ↓
-VALIDATION CHECK
-   ↓
-REPRODUCIBILITY CHECK
-```
+- Clearly documented AOI
+- Documented dataset IDs
+- Processing dates
+- Sensor information
+- Cloud-mask criteria
+- Scaling factors
+- LST methodology
+- Index formulas
+- Model parameters
+- Training/validation strategy
+- Random seeds where appropriate
+- Software versions
+- Python environment
+- GEE scripts
+- Data-processing logs
+- Validation datasets
 
 ---
 
-# ⚠️ LIMITATIONS
+# ✅ Quality Control
 
-Important limitations include:
-
-### 1. Satellite Observation Availability
-
-Historical observations do not necessarily provide identical acquisition dates or seasonal conditions.
-
-### 2. Sensor Differences
-
-Different Landsat generations have different sensor characteristics.
-
-### 3. Spatial Resolution
-
-MODIS and Landsat datasets have substantially different spatial resolutions.
-
-### 4. Atmospheric Effects
-
-Atmospheric conditions can affect thermal retrievals.
-
-### 5. Emissivity Uncertainty
-
-Surface emissivity varies with land-cover and material properties.
-
-### 6. Cloud and Shadow Contamination
-
-Incomplete masking can affect derived products.
-
-### 7. Landsat 7 SLC-Off
-
-Post-2003 Landsat 7 imagery contains scan-line gaps that require appropriate handling.
-
-### 8. Future Uncertainty
-
-2045 projections depend on model assumptions and cannot be treated as direct observations.
-
-### 9. Model Extrapolation
-
-Machine-learning models may perform poorly outside the range of conditions represented in the training data.
-
-### 10. Causality
-
-Correlation between NDVI/NDBI and LST does not automatically establish causal relationships.
+<pre><code>
+DATA ACQUISITION
+      │
+      ▼
+DATA QUALITY CHECK
+      │
+      ├── Cloud?
+      ├── Missing data?
+      ├── Sensor mismatch?
+      ├── Temporal mismatch?
+      └── Spatial mismatch?
+      │
+      ▼
+PREPROCESSING QC
+      │
+      ▼
+DERIVED PRODUCT QC
+      │
+      ├── LST
+      ├── NDVI
+      ├── NDBI
+      └── NDWI
+      │
+      ▼
+STATISTICAL QC
+      │
+      ▼
+MODEL QC
+      │
+      ▼
+FINAL VALIDATION
+</code></pre>
 
 ---
 
-# 🛠️ MITIGATION STRATEGIES
+# ⚠️ Limitations
 
-Potential urban heat mitigation approaches investigated conceptually include:
-
-- Urban tree plantation
-- Green corridors
-- Urban forests
-- Green roofs
-- Cool roofs
-- High-albedo materials
-- Permeable surfaces
-- Water-sensitive urban design
-- Wetland conservation
-- Blue-green infrastructure
-- Shading infrastructure
-- Heat-resilient urban planning
-- Protection of existing vegetation
+1. Historical satellite availability is not perfectly uniform.
+2. Different Landsat sensors have different characteristics.
+3. Thermal resolution is coarser than optical spatial resolution.
+4. Cloud contamination may reduce usable observations.
+5. Atmospheric conditions influence thermal retrieval.
+6. Emissivity estimation introduces uncertainty.
+7. Satellite LST and near-surface air temperature are different variables.
+8. Future projections depend strongly on scenario assumptions.
+9. Machine Learning performance depends on training-data quality.
+10. Long-term predictions should not be interpreted as deterministic future observations.
 
 ---
 
-# 🌱 FUTURE RESEARCH
+# 🛠️ Mitigation Strategies
+
+| Limitation | Mitigation |
+|---|---|
+| Sensor differences | Cross-sensor consistency checks |
+| Clouds | QA-based masking |
+| Missing observations | Temporal compositing |
+| Thermal uncertainty | Validation against independent observations |
+| Emissivity | Land-cover-informed estimation |
+| Model overfitting | Cross-validation |
+| Temporal leakage | Time-aware validation |
+| Spatial leakage | Spatial validation |
+| Future uncertainty | Multiple scenarios |
+| Prediction uncertainty | Error and sensitivity analysis |
+
+---
+
+# 🔬 Future Research
 
 Potential future extensions include:
 
-- ECOSTRESS integration
+- Higher-frequency time-series modelling
 - Sentinel-2 integration
-- Sentinel-3 thermal observations
-- MODIS time-series integration
+- ECOSTRESS integration
+- ERA5-Land integration
 - ERA5 meteorological variables
-- Urban morphology
-- Building-density analysis
 - Night-time thermal analysis
-- Population exposure
-- Heat-health risk
-- Socio-economic vulnerability
-- Climate scenario integration
+- Urban morphology
+- Building-height data
+- Population density
+- Traffic-related variables
+- Anthropogenic heat
+- Energy consumption
+- Climate-model integration
 - Explainable AI
-- SHAP-based feature interpretation
-- Spatio-temporal deep learning
-- ConvLSTM
-- Graph-based urban modelling
-- Digital-twin concepts
+- Causal modelling
+- Urban digital twins
+- Near-real-time UHI monitoring
 
 ---
 
-# 🤖 EXPLAINABLE AI
+# 🤖 Explainable AI
 
-Future machine-learning interpretation can include:
+Machine Learning predictions should be interpretable whenever possible.
+
+Potential explainability methods include:
 
 - Feature importance
 - Permutation importance
-- SHAP values
-- Partial dependence
-- Local explanation
-- Spatial feature contribution
+- Partial Dependence
+- SHAP
+- Local explanations
+- Spatial feature importance
 
-Example conceptual interpretation:
+### Explainable AI Framework
 
-```text
-                 LST PREDICTION
-                       │
-       ┌───────────────┼────────────────┐
-       │               │                │
-      NDVI            NDBI             NDWI
-       │               │                │
-       ▼               ▼                ▼
- Vegetation        Built-up          Water
- Influence         Influence         Influence
-       │               │                │
-       └───────────────┼────────────────┘
-                       ▼
-                MODEL PREDICTION
-                       │
-                       ▼
-                EXPLAINABLE AI
-```
-
----
-
-# 📚 REFERENCES
-
-## Remote Sensing & LST
-
-- Landsat Science — USGS
-- NASA Earth Observation resources
-- Google Earth Engine Data Catalog
-- Sobrino et al. — Land Surface Temperature retrieval research
-- Remote sensing literature on urban thermal environments
-
-## Land Cover
-
-- ESA WorldCover documentation
-- ESA Earth Observation resources
-
-## GIS
-
-- ESRI GIS resources
-- QGIS documentation
-- Open-source geospatial standards
-
-## Machine Learning
-
-- Breiman — Random Forests
-- Hochreiter & Schmidhuber — Long Short-Term Memory
-- Standard regression and ensemble-learning literature
-
-## Climate & Urban Heat
-
-- IPCC assessment literature
-- Peer-reviewed UHI research
-- Urban climate and environmental modelling literature
-
-All references used in the final SCI manuscript should be maintained in a formal bibliography with DOI or publisher information wherever available.
+<pre><code>
+ML Prediction
+     │
+     ▼
+Explainability Layer
+     │
+ ┌───┼────────────┐
+ ▼   ▼            ▼
+SHAP Feature     Partial
+     Importance   Dependence
+     │
+     ▼
+Environmental Interpretation
+     │
+     ▼
+Urban Climate Understanding
+</code></pre>
 
 ---
 
-# 🔬 RESEARCH QUALITY PRINCIPLES
+# 📚 References
 
-The research follows:
+Major methodological references should include authoritative literature and official dataset documentation covering:
 
-### Reproducibility
-
-All major calculations should be reproducible.
-
-### Transparency
-
-Assumptions and processing decisions should be documented.
-
-### Validation
-
-Model outputs should be compared with independent observations wherever possible.
-
-### Uncertainty
-
-Uncertainty should be quantified rather than hidden.
-
-### Scientific Separation
-
-Observed satellite data and modelled future projections must remain clearly separated.
-
-### Version Control
-
-Code and documentation should be maintained through Git/GitHub.
-
----
-
-# 📌 IMPORTANT SCIENTIFIC DISTINCTION
-
-This repository distinguishes between:
-
-### OBSERVED
-
-Values derived directly from satellite observations or validated supporting datasets.
-
-### DERIVED
-
-Products calculated from satellite observations, such as:
-
+- Landsat Collection 2
+- NASA Earth Observation
+- USGS Landsat
+- MODIS
+- ESA WorldCover
+- SRTM
+- Land Surface Temperature retrieval
 - NDVI
 - NDBI
 - NDWI
-- LST
-- Hotspot maps
+- Urban Heat Island science
+- Remote Sensing
+- GIS
+- Machine Learning
+- Random Forest
+- Gradient Boosting
+- LSTM
+- Explainable AI
 
-### MODELLED
-
-Outputs generated through statistical or machine-learning models.
-
-### PROJECTED
-
-Future estimates generated from model assumptions.
-
-Therefore:
-
-**2045 ≠ satellite observation**
-
-and should always be labelled as:
-
-> **Modelled / Projected LST**
+Dataset versions, access dates and DOI information should be recorded in the final research manuscript.
 
 ---
 
-# 📊 RECOMMENDED FINAL VALIDATION DATA
+# 🧪 Research Quality Principles
 
-Where available, validation can incorporate:
+The research follows these principles:
 
-- Meteorological station observations
-- IMD observations
-- MODIS LST
-- ECOSTRESS
-- Independent satellite scenes
-- Ground observations
-- Cross-sensor comparison
+### 1. Reproducibility
 
-For continuous LST prediction, appropriate metrics include:
+Every major processing step should be documented.
 
-- RMSE
-- MAE
-- R²
-- Bias
-- Correlation
-- Residual analysis
+### 2. Transparency
 
-**Cohen's Kappa should be reserved for categorical/classification agreement rather than used as a primary metric for continuous LST accuracy.**
+Assumptions must be clearly stated.
 
----
+### 3. Scientific Separation
 
-# 🧭 RESEARCH PIPELINE
+Observed, derived and modelled products must not be mixed.
 
-```text
-                    ┌──────────────────────┐
-                    │   SATELLITE DATA     │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │    PREPROCESSING     │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-              ┌─────────────────────────────────┐
-              │ NDVI │ NDBI │ NDWI │ LST │ LC │
-              └────────────────┬────────────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ MULTI-DECADAL DATASET│
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ SPATIAL + TEMPORAL   │
-                    │      ANALYSIS        │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ STATISTICAL ANALYSIS │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ MACHINE LEARNING     │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ MODEL VALIDATION     │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ FUTURE PROJECTION    │
-                    │       2030–2045      │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ THERMAL-RISK MAPS    │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ MITIGATION STRATEGY  │
-                    └──────────────────────┘
-```
+### 4. Validation
+
+Predictions must be independently evaluated.
+
+### 5. Uncertainty
+
+Uncertainty should be quantified wherever possible.
+
+### 6. Consistency
+
+Multi-temporal datasets should use consistent processing.
+
+### 7. Traceability
+
+Every major result should be traceable to its source data and processing workflow.
 
 ---
 
-# 📈 PROJECT MILESTONES
+# 🔎 Important Scientific Distinction
 
-| Milestone | Target |
+The project uses four distinct categories:
+
+| Category | Meaning |
 |---|---|
-| Study-area definition | Completed / Active |
-| Data inventory | Completed / Active |
-| GEE preprocessing | Active |
-| Historical LST | Active |
-| NDVI analysis | Active |
-| NDBI analysis | Active |
-| NDWI analysis | Active |
-| Land-cover integration | Active |
-| Historical trend analysis | Active |
-| ML modelling | Planned / Active |
-| Validation | Planned |
-| Future projection | Planned |
-| Final maps | Planned |
-| SCI manuscript | Planned |
+| Observed | Directly measured satellite/environmental observation |
+| Derived | Product calculated from observations |
+| Modelled | Output generated by statistical/ML model |
+| Projected | Modelled future estimate under specified assumptions |
+
+### Example
+
+**Landsat thermal observation → Observed**
+
+**Calculated LST → Derived**
+
+**Random Forest prediction → Modelled**
+
+**2045 UHI estimate → Projected**
+
+This distinction is essential for scientific reporting.
 
 ---
 
-# 🧰 TECHNOLOGY STACK
+# 📡 Recommended Final Validation Data
 
-```text
+Where available, the following independent datasets can strengthen validation:
+
+- Meteorological station temperature
+- Surface weather observations
+- MODIS LST
+- ERA5-Land
+- ECOSTRESS
+- Independent Landsat observations
+- Urban land-cover datasets
+- Ground observations
+
+Validation datasets should be temporally and spatially matched to the satellite observations.
+
+---
+
+# 🔬 Integrated Research Pipeline
+
+<pre><code>
+                 ┌─────────────────────┐
+                 │ Satellite Archives  │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │ Preprocessing & QC  │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+        ┌─────────────────────────────────────┐
+        │                                     │
+        ▼                                     ▼
+      LST                                    Indices
+        │                              ┌──────┼──────┐
+        │                              ▼      ▼      ▼
+        │                            NDVI   NDBI   NDWI
+        │                              │      │      │
+        └──────────────────────────────┼──────┼──────┘
+                                       ▼
+                              Land-Cover Analysis
+                                       │
+                                       ▼
+                              Historical UHI
+                                       │
+                    ┌──────────────────┼──────────────────┐
+                    ▼                  ▼                  ▼
+                 Trends            Hotspots          Statistics
+                    │                  │                  │
+                    └──────────────────┼──────────────────┘
+                                       ▼
+                                Feature Engineering
+                                       │
+                                       ▼
+                              Machine Learning
+                                       │
+                                       ▼
+                                  Validation
+                                       │
+                                       ▼
+                              Scenario Modelling
+                                       │
+                                       ▼
+                                   2045 UHI
+                                       │
+                                       ▼
+                              Interpretation
+                                       │
+                                       ▼
+                              Final Research
+</code></pre>
+
+---
+
+# 🗓️ Project Milestones
+
+| Phase | Major Milestone |
+|---|---|
+| Phase 1 | AOI and data architecture |
+| Phase 2 | Satellite preprocessing |
+| Phase 3 | LST generation |
+| Phase 4 | NDVI/NDBI/NDWI generation |
+| Phase 5 | Historical UHI analysis |
+| Phase 6 | Statistical analysis |
+| Phase 7 | Hotspot analysis |
+| Phase 8 | Machine Learning |
+| Phase 9 | Model validation |
+| Phase 10 | Future scenario development |
+| Phase 11 | 2045 projection |
+| Phase 12 | Final research documentation |
+
+---
+
+# 💻 Technology Stack
+
+<pre><code>
+Earth Observation
+      │
+      ├── Landsat
+      ├── MODIS
+      ├── ESA WorldCover
+      └── SRTM
+      │
+      ▼
 Google Earth Engine
-        │
-        ├── Landsat
-        ├── MODIS
-        ├── ESA WorldCover
-        └── SRTM
-
+      │
+      ├── Image Processing
+      ├── Cloud Masking
+      ├── Compositing
+      ├── Spectral Indices
+      └── LST Processing
+      │
+      ▼
 Python
-        │
-        ├── NumPy
-        ├── Pandas
-        ├── Matplotlib
-        ├── Scikit-learn
-        └── TensorFlow / Keras
-
+      │
+      ├── NumPy
+      ├── Pandas
+      ├── Matplotlib
+      ├── Scikit-learn
+      └── TensorFlow / Keras
+      │
+      ▼
 GIS
-        │
-        ├── QGIS
-        ├── Raster Processing
-        └── Spatial Analysis
-
-Version Control
-        │
-        └── Git + GitHub
-```
-
----
-
-# 🔑 KEYWORDS
-
-```text
-Urban Heat Island
-UHI
-Delhi NCR
-Land Surface Temperature
-LST
-Landsat
-Remote Sensing
-GIS
-Google Earth Engine
-NDVI
-NDBI
-NDWI
-ESA WorldCover
-MODIS
-SRTM
+      │
+      ├── QGIS
+      └── Spatial Analysis
+      │
+      ▼
 Machine Learning
-Random Forest
-LSTM
-Predictive Modelling
-Urbanisation
-Climate Change
-Urban Climate
-Thermal Remote Sensing
-Spatio-Temporal Analysis
-Environmental Modelling
-```
+      │
+      ├── Linear Regression
+      ├── Random Forest
+      ├── Gradient Boosting
+      └── LSTM
+</code></pre>
 
 ---
 
-# 👨‍🔬 RESEARCH ORGANISATION
+# 🔑 Keywords
 
-## ESARC
+`Urban Heat Island`
 
-**Earth & Space Applications Research Centre (ESARC)**
+`UHI`
 
-Research domains:
+`Delhi-NCR`
+
+`Land Surface Temperature`
+
+`LST`
+
+`Remote Sensing`
+
+`Earth Observation`
+
+`Landsat`
+
+`MODIS`
+
+`ESA WorldCover`
+
+`SRTM`
+
+`NDVI`
+
+`NDBI`
+
+`NDWI`
+
+`Google Earth Engine`
+
+`Python`
+
+`GIS`
+
+`Machine Learning`
+
+`Random Forest`
+
+`Gradient Boosting`
+
+`LSTM`
+
+`Spatio-Temporal Analysis`
+
+`Urban Climate`
+
+`Climate Change`
+
+`Predictive Modelling`
+
+`Hotspot Analysis`
+
+`Environmental Monitoring`
+
+---
+
+# 🛰️ Research Organisation
+
+## ESARC — Earth & Space Applications Research Centre
+
+The project is developed under the research framework of:
+
+**ESARC — Earth & Space Applications Research Centre**
+
+Research domains include:
 
 - Earth Observation
 - Remote Sensing
 - GIS
-- Urban Climate
-- Environmental Modelling
-- Space Science
+- Urban Environmental Monitoring
+- Climate Applications
 - Satellite Data Analysis
+- Space Science Applications
 - Machine Learning
-- Geospatial Intelligence
+- Environmental Modelling
 
 ---
 
-# 📜 LICENSE
+# 📜 License
 
-This project is released under the **MIT License**.
+This repository is intended for educational, research and scientific-development purposes.
 
-See [`LICENSE`](LICENSE) for the complete license text.
+Users should appropriately acknowledge:
+
+- Original satellite-data providers
+- Dataset providers
+- Scientific publications
+- Open-source software
+- External datasets
+- Supporting research institutions
+
+Any redistribution of datasets must comply with the respective dataset licensing and usage conditions.
 
 ---
 
-# 📚 CITATION
+# 📖 Citation
 
-If this research, methodology or software contributes to your work, please cite the final published research paper once available.
+If this research framework, methodology or derived outputs are used in academic work, please cite the project appropriately.
 
-Suggested citation format:
-
-```text
+<pre><code>
 Chaudhari, A.
-"Spatio-Temporal Analysis and Machine Learning-Based Prediction
-of Urban Heat Island Intensity over Delhi-NCR Region Using
-Multi-Temporal Landsat and ESA WorldCover."
+"Multi-Decadal Spatio-Temporal Dynamics & Predictive Modelling
+of Urban Heat Island (UHI) Intensity: Delhi-NCR (1995–2045)."
 
-ESARC Research Project.
-```
-
----
-
-# 📝 RESEARCH LOG
-
-Every major research activity should be documented in the project logbook.
-
-Recommended log format:
-
-```text
-DATE:
-RESEARCH PHASE:
-OBJECTIVE:
-DATASET:
-PROCESSING:
-CODE VERSION:
-RESULT:
-PROBLEM:
-SOLUTION:
-VALIDATION:
-NEXT STEP:
-```
-
-This creates a traceable connection between:
-
-**Research Question → Data → Code → Result → Validation → Conclusion**
+ESARC — Earth & Space Applications Research Centre.
+</code></pre>
 
 ---
 
-# 🔐 DATA & ETHICS
+# 📔 Research Log
 
-The project should avoid publishing:
+<pre><code>
+Project:
+Multi-Decadal Spatio-Temporal Dynamics & Predictive Modelling
+of Urban Heat Island (UHI) Intensity: Delhi-NCR (1995–2045)
 
-- Private personal information
-- Sensitive location information
-- Restricted datasets
-- Unlicensed commercial data
-- Confidential research material
+Historical Period:
+1995–2025
 
-Only legally distributable datasets and derived research outputs should be included in the public repository.
+Future Projection:
+2025–2045
 
----
+Study Centre:
+28.6139° N, 77.2090° E
 
-# 🚀 FUTURE DEVELOPMENT ROADMAP
+Approximate AOI:
+150 km buffer
 
-```text
-2026
- │
- ├── Research Foundation
- ├── GEE
- ├── Landsat
- ├── GIS
- └── Initial UHI Dataset
-       │
-       ▼
-2027
- │
- ├── Historical Reconstruction
- ├── NDVI / NDBI / NDWI
- ├── LST
- └── Spatial Analysis
-       │
-       ▼
-2028
- │
- ├── Machine Learning
- ├── Validation
- ├── Multi-Sensor Fusion
- └── Research Publication
-       │
-       ▼
-2029
- │
- ├── Advanced Prediction
- ├── Explainable AI
- └── Urban Thermal Risk
-       │
-       ▼
-2030–2045
- │
- ├── Scenario Modelling
- ├── Climate Integration
- ├── Advanced AI
- └── Long-Term Urban Heat Assessment
-```
+Primary Data:
+Landsat 5/7/8/9
 
----
+Supporting Data:
+MODIS
+ESA WorldCover
+SRTM
+Administrative Boundaries
+Meteorological Validation Data
 
-# 🛰️ FINAL RESEARCH VISION
+Primary Variables:
+LST
+NDVI
+NDBI
+NDWI
+Emissivity
+Land Cover
 
-The long-term goal of this project is to develop a scientifically transparent and reproducible framework capable of connecting:
+Processing:
+Google Earth Engine
+Python
+GIS
 
-**Satellite Observation**
+Machine Learning:
+Linear Regression
+Random Forest
+Gradient Boosting
+LSTM
 
-→ **Urbanisation**
+Principal Figures:
+fig1.jpg
+fig2.jpg
+fig3.jpg
+fig4.jpg
+fig5.jpg
+fig6.jpg
+fig7.jpg
+fig8.jpg
+fig9.jpg
+fig10.jpg
+fig11.jpg
 
-→ **Vegetation Change**
+Research Demonstrations:
+video1.mp4
+video2.mp4
+video3.mp4
+video4.mp4
 
-→ **Land-Cover Transformation**
+Primary Outputs:
+Historical LST
+UHI Intensity
+Thermal Hotspots
+Land-Cover Relationships
+Statistical Models
+ML Models
+2045 Projection
+Uncertainty Analysis
 
-→ **Surface Temperature**
-
-→ **Thermal Hotspots**
-
-→ **Machine Learning**
-
-→ **Future Projection**
-
-→ **Urban Heat Risk**
-
-→ **Climate-Resilient Planning**
-
-The project therefore aims to evolve from a conventional remote-sensing study into a broader **spatio-temporal Earth observation and predictive environmental modelling framework**.
+Organisation:
+ESARC
+Earth & Space Applications Research Centre
+</code></pre>
 
 ---
 
-# ⭐ PROJECT SUMMARY
+# 🌍 Data & Ethics
 
-### Study Area
-**Delhi-NCR**
+This project is based primarily on Earth Observation and environmental datasets.
 
-### Historical Period
-**1995–2025**
+The research should:
 
-### Prediction Horizon
-**2025–2045**
+- Respect dataset licensing.
+- Provide appropriate attribution.
+- Avoid misrepresenting modelled values as observations.
+- Clearly disclose assumptions.
+- Report uncertainty.
+- Avoid unsupported claims.
+- Preserve scientific reproducibility.
+- Distinguish correlation from causation.
+- Document processing decisions.
 
-### Primary Variable
+---
+
+# 🚀 Future Development Roadmap
+
+<pre><code>
+                    CURRENT RESEARCH
+                           │
+                           ▼
+                  Historical UHI
+                    1995–2025
+                           │
+                           ▼
+                 Statistical Analysis
+                           │
+                           ▼
+                Machine Learning Models
+                           │
+                           ▼
+                   Model Validation
+                           │
+                           ▼
+                 Scenario Development
+                           │
+                           ▼
+                    2045 Projection
+                           │
+                           ▼
+                Uncertainty Assessment
+                           │
+                           ▼
+                Explainable AI / SHAP
+                           │
+                           ▼
+              Multi-Sensor Data Fusion
+                           │
+                           ▼
+             Higher-Resolution Urban Data
+                           │
+                           ▼
+                 Urban Climate System
+                           │
+                           ▼
+                 Long-Term Monitoring
+</code></pre>
+
+---
+
+# 🌌 Final Research Vision
+
+The ultimate goal of this project is to establish a **reproducible, multi-sensor, multi-decadal Earth Observation and Machine Learning framework** for understanding urban thermal transformation across Delhi-NCR.
+
+The research integrates:
+
+**Satellite Remote Sensing**
+
++
+
 **Land Surface Temperature**
 
-### Major Predictors
-**NDVI + NDBI + NDWI + Land Cover + Elevation + Temporal Variables**
++
 
-### Core Technologies
-**Google Earth Engine + Python + GIS + Machine Learning**
+**Vegetation Dynamics**
 
-### Main Research Components
++
 
-```text
-🛰️ Satellite Remote Sensing
-        +
-🌡️ Land Surface Temperature
-        +
-🌿 Vegetation Dynamics
-        +
-🏙️ Urban Expansion
-        +
-💧 Water Dynamics
-        +
-🗺️ Land Cover
-        +
-🤖 Machine Learning
-        +
-📈 Statistical Analysis
-        +
-🔮 Future Projection
-        =
-🌍 Multi-Decadal UHI Research Framework
-```
+**Built-up Expansion**
+
++
+
+**Surface Water**
+
++
+
+**Land-Cover Change**
+
++
+
+**GIS & Spatial Statistics**
+
++
+
+**Machine Learning**
+
++
+
+**Future Scenario Modelling**
+
+to develop a comprehensive understanding of urban thermal dynamics.
 
 ---
 
-# 📌 PROJECT STATUS
+# 🧩 Project Summary
 
-**Research / Development**
+<pre><code>
+                 ┌──────────────────────────┐
+                 │       DELHI-NCR          │
+                 │       1995–2045          │
+                 └────────────┬─────────────┘
+                              │
+          ┌───────────────────┼───────────────────┐
+          │                   │                   │
+          ▼                   ▼                   ▼
+       SATELLITE             GIS                PYTHON
+          │                   │                   │
+          ▼                   ▼                   ▼
+       LANDSAT             SPATIAL             MACHINE
+       MODIS               ANALYSIS             LEARNING
+          │                   │                   │
+          └───────────────────┼───────────────────┘
+                              ▼
+                         LST / NDVI
+                         NDBI / NDWI
+                              │
+                              ▼
+                         UHI ANALYSIS
+                              │
+               ┌──────────────┼──────────────┐
+               ▼              ▼              ▼
+             TRENDS        HOTSPOTS       RELATIONSHIPS
+               │              │              │
+               └──────────────┼──────────────┘
+                              ▼
+                         ML MODELLING
+                              │
+                              ▼
+                          VALIDATION
+                              │
+                              ▼
+                       FUTURE PROJECTION
+                              │
+                              ▼
+                             2045
+</code></pre>
 
-The repository is continuously being developed as datasets, processing scripts, validation procedures, machine-learning models and research outputs are refined.
+---
+
+# 📌 Project Status
+
+**Research Framework:** Active Development
+
+**Historical Analysis:** 1995–2025
+
+**Future Projection Framework:** 2025–2045
+
+**Primary Study Region:** Delhi-NCR
+
+**Primary Platform:** Google Earth Engine
+
+**Programming:** Python
+
+**Research Domain:** Earth Observation + Urban Climate + Remote Sensing + GIS + Machine Learning
+
+**Principal Figures:** `fig1.jpg` – `fig11.jpg`
+
+**Research Demonstrations:** `video1.mp4` – `video4.mp4`
+
+**Research Organisation:** ESARC — Earth & Space Applications Research Centre
 
 ---
 
 <p align="center">
-
-### 🛰️ Earth Observation • 🌍 Environmental Research • 🤖 AI • 🔬 Scientific Computing
-
-<strong>Delhi-NCR Urban Heat Island Research — 1995–2045</strong>
-
+  🌍 <strong>Earth Observation</strong> • 🛰️ <strong>Remote Sensing</strong> • 🌡️ <strong>Urban Climate</strong> • 🗺️ <strong>GIS</strong> • 🤖 <strong>Machine Learning</strong> • 🔭 <strong>Space & Earth Applications</strong>
 </p>
 
 <p align="center">
-
-<strong>ESARC</strong>
-
+  <strong>ESARC — Earth & Space Applications Research Centre</strong>
 </p>
