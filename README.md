@@ -15,7 +15,7 @@
 ---
 
 ## 📌 Executive Summary
-This research presents a comprehensive 50-year spatio-temporal study (1995–2045) tracking Land Surface Temperature (LST) and Urban Heat Island (UHI) dynamics across a **150 km circular buffer** surrounding Delhi-NCR (enclosing Western Uttar Pradesh, South Haryana, and Rajasthan borders). Utilizing multi-sensor data fusion of Landsat 5 TM, Landsat 7 ETM+, Landsat 8 OLI/TIRS, Landsat 9, and MODIS (MOD11A1), LST was retrieved using the **Sobrino et al. (2004) Mono-Window Algorithm** within a cloud-based Google Earth Engine (GEE) framework.
+This research presents a comprehensive 50-year spatio-temporal study (1995–2045) tracking Land Surface Temperature (LST) and Urban Heat Island (UHI) dynamics across a **150 km circular buffer** surrounding Delhi-NCR (including Western UP, South Haryana, and Rajasthan borders). Utilizing multi-sensor data fusion of Landsat 5 TM, Landsat 7 ETM+, Landsat 8 OLI/TIRS, Landsat 9, and MODIS (MOD11A1), LST was retrieved using the **Sobrino et al. (2004) Mono-Window Algorithm** within a cloud-based Google Earth Engine (GEE) framework.
 
 The study highlights a direct, inverse correlation ($R^2 = 0.88$) between the Normalized Difference Vegetation Index (NDVI) and LST, alongside a strong positive correlation ($R^2 = 0.85$) with the Normalized Difference Built-Up Index (NDBI). Findings reveal an alarming **8.1°C rise in mean LST** from 1995 (29.8°C) to 2025 (37.9°C). Integrating CA-Markov predictive chain analysis, Random Forest, and LSTM neural networks, the model projects a **peak mean LST of 41.2°C – 41.9°C by 2045**, breaching critical habitability thresholds.
 
@@ -228,4 +228,30 @@ var collection = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
 
 // 3. Cloud Masking Function using QA_PIXEL Bitmask
 function maskClouds(image) {
-  var
+  var qa = image.select('QA_PIXEL');
+  var cloudShadowBitMask = (1 << 3);
+  var cloudsBitMask = (1 << 4);
+  var mask = qa.bitwiseAnd(cloudShadowBitMask).eq(0)
+                 .and(qa.bitwiseAnd(cloudsBitMask).eq(0));
+  return image.updateMask(mask);
+}
+
+var processed = collection.map(maskClouds).median().clip(aoi);
+
+// 4. Spectral Indices Calculation
+var ndvi = processed.normalizedDifference(['SR_B5', 'SR_B4']).rename('NDVI');
+var ndbi = processed.normalizedDifference(['SR_B6', 'SR_B5']).rename('NDBI');
+var ndwi = processed.normalizedDifference(['SR_B3', 'SR_B5']).rename('NDWI');
+
+// 5. Fraction of Vegetation (Pv) & Dynamic Emissivity Calculation
+var ndviMin = ee.Number(ndvi.reduceRegion({
+  reducer: ee.Reducer.min(), geometry: aoi, scale: 30, maxPixels: 1e9
+}).get('NDVI'));
+var ndviMax = ee.Number(ndvi.reduceRegion({
+  reducer: ee.Reducer.max(), geometry: aoi, scale: 30, maxPixels: 1e9
+}).get('NDVI'));
+
+var pv = ndvi.subtract(ndviMin).divide(ndviMax.subtract(ndviMin)).pow(ee.Image(2));
+var emissivity = pv.multiply(0.004).add(0.986);
+
+// 6. Thermal Calibration & Sobrino Mono-Window LST Model
