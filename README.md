@@ -2035,7 +2035,11 @@ to develop a comprehensive understanding of urban thermal dynamics.
 
 **Principal Figures:** `fig1.jpg` – `fig11.jpg`
 
-**Research Demonstrations:** `video1.mp4` – `video4.mp4`
+**Research Demonstrations:** [![Play Video 1](https://img.shields.io/badge/▶%20Watch-video1.mp4-red?style=for-the-badge)](video1.mp4)
+[![Play Video 2](https://img.shields.io/badge/▶%20Watch-video2.mp4-blue?style=for-the-badge)](video2.mp4)
+[![Play Video 3](https://img.shields.io/badge/▶%20Watch-video3.mp4-green?style=for-the-badge)](video3.mp4)
+[![Play Video 4](https://img.shields.io/badge/▶%20Watch-video4.mp4-orange?style=for-the-badge)](video4.mp4)
+
 
 **Research Organisation:** ESARC — Earth & Space Applications Research Centre
 
