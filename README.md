@@ -2035,10 +2035,13 @@ to develop a comprehensive understanding of urban thermal dynamics.
 
 **Principal Figures:** `fig1.jpg` – `fig11.jpg`
 
-**Research Demonstrations:** [![Play Video 1](https://img.shields.io/badge/▶%20Watch-video1.mp4-red?style=for-the-badge)](video1.mp4)
-[![Play Video 2](https://img.shields.io/badge/▶%20Watch-video2.mp4-blue?style=for-the-badge)](video2.mp4)
-[![Play Video 3](https://img.shields.io/badge/▶%20Watch-video3.mp4-green?style=for-the-badge)](video3.mp4)
-[![Play Video 4](https://img.shields.io/badge/▶%20Watch-video4.mp4-orange?style=for-the-badge)](video4.mp4)
+# 🎬 RESEARCH DEMONSTRATIONS
+
+Aap in links par click karke videos dekh sakte hain:
+* **[Watch Video 1 (Google Earth Engine Processing)](./video1.mp4)**[span_0](start_span)[span_0](end_span)
+* **[Watch Video 2 (LST Processing Analysis)](./video2.mp4)**[span_1](start_span)[span_1](end_span)
+* **[Watch Video 3 (Python & Machine Learning)](./video3.mp4)**[span_2](start_span)[span_2](end_span)
+* **[Watch Video 4 (Final Integrated Research)](./video4.mp4)**[span_3](start_span)[span_3](end_span)
 
 
 **Research Organisation:** ESARC — Earth & Space Applications Research Centre
