@@ -1796,12 +1796,6 @@ fig9.jpg
 fig10.jpg
 fig11.jpg
 
-Research Demonstrations:
-video1.mp4
-video2.mp4
-video3.mp4
-video4.mp4
-
 Primary Outputs:
 Historical LST
 UHI Intensity
