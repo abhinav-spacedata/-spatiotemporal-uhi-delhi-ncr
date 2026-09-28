@@ -1194,47 +1194,6 @@ The repository contains **11 principal research figures**.
 
 ---
 
-# 🎬 Research Demonstrations
-
-## 🎬 video1.mp4
-
-**Exact file:** `video1.mp4`
-
-[▶️ Open video1.mp4](video1.mp4)[span_23](start_span)[span_23](end_span)
-
-**Purpose:** Google Earth Engine processing demonstration covering satellite-data preparation, filtering, preprocessing and Earth Observation workflow.
-
----
-
-## 🎬 video2.mp4
-
-**Exact file:** `video2.mp4`
-
-[▶️ Open video2.mp4](video2.mp4)[span_24](start_span)[span_24](end_span)
-
-**Purpose:** LST processing demonstration covering thermal-data processing and Land Surface Temperature workflow.
-
----
-
-## 🎬 video3.mp4
-
-**Exact file:** `video3.mp4`
-
-[▶️ Open video3.mp4](video3.mp4)[span_25](start_span)[span_25](end_span)
-
-**Purpose:** Python and Machine Learning demonstration covering data processing, statistical analysis and predictive modelling.
-
----
-
-## 🎬 video4.mp4
-
-**Exact file:** `video4.mp4`
-
-[▶️ Open video4.mp4](video4.mp4)[span_26](start_span)[span_26](end_span)
-
-**Purpose:** Final integrated research demonstration covering the overall research pipeline and outputs.
-
----
 
 # 📁 Repository Structure
 
@@ -1254,11 +1213,6 @@ UHI-Delhi-NCR-1995-2045/
 ├── fig9.jpg
 ├── fig10.jpg
 ├── fig11.jpg
-│
-├── video1.mp4
-├── video2.mp4
-├── video3.mp4
-├── video4.mp4
 │
 ├── gee/
 │   ├── landsat_processing.js
@@ -2034,14 +1988,6 @@ to develop a comprehensive understanding of urban thermal dynamics.
 **Research Domain:** Earth Observation + Urban Climate + Remote Sensing + GIS + Machine Learning
 
 **Principal Figures:** `fig1.jpg` – `fig11.jpg`
-
-# 🎬 RESEARCH DEMONSTRATIONS
-
-Aap in links par click karke videos dekh sakte hain:
-* **[Watch Video 1 (Google Earth Engine Processing)](./video1.mp4)**[span_0](start_span)[span_0](end_span)
-* **[Watch Video 2 (LST Processing Analysis)](./video2.mp4)**[span_1](start_span)[span_1](end_span)
-* **[Watch Video 3 (Python & Machine Learning)](./video3.mp4)**[span_2](start_span)[span_2](end_span)
-* **[Watch Video 4 (Final Integrated Research)](./video4.mp4)**[span_3](start_span)[span_3](end_span)
 
 
 **Research Organisation:** ESARC — Earth & Space Applications Research Centre
